@@ -1,0 +1,352 @@
+/* Jyotish Reference — styles */
+
+:root {
+  --bg: #10121f;
+  --bg-soft: #181b2e;
+  --card: #1d2138;
+  --card-hover: #252a45;
+  --border: #2e3352;
+  --text: #e9e7de;
+  --text-dim: #a8a6b8;
+  --gold: #d9b45b;
+  --gold-soft: #f0d493;
+  --accent: #7c6fd0;
+  --radius: 12px;
+  --maxw: 1100px;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  line-height: 1.55;
+}
+
+h1, h2, h3, .brand-name {
+  font-family: Georgia, "Times New Roman", serif;
+  letter-spacing: 0.02em;
+}
+
+a { color: var(--gold-soft); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+/* ---------- Header ---------- */
+
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.75rem 1.25rem;
+  padding: 0.7rem 1.25rem;
+  background: rgba(16, 18, 31, 0.92);
+  backdrop-filter: blur(8px);
+  border-bottom: 1px solid var(--border);
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: var(--gold);
+}
+.brand:hover { text-decoration: none; }
+.brand-glyph { font-size: 1.5rem; }
+.brand-name { font-size: 1.15rem; font-weight: 600; }
+
+.search-wrap { flex: 1 1 220px; max-width: 420px; }
+
+#search {
+  width: 100%;
+  padding: 0.5rem 0.9rem;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  background: var(--bg-soft);
+  color: var(--text);
+  font-size: 0.95rem;
+  outline: none;
+}
+#search:focus { border-color: var(--gold); }
+#search::placeholder { color: var(--text-dim); }
+
+.tabs {
+  display: flex;
+  gap: 0.25rem;
+  margin-left: auto;
+}
+.tabs a {
+  padding: 0.45rem 0.9rem;
+  border-radius: 999px;
+  color: var(--text-dim);
+  font-size: 0.95rem;
+}
+.tabs a:hover { color: var(--text); text-decoration: none; background: var(--bg-soft); }
+.tabs a.active {
+  color: #1a1405;
+  background: var(--gold);
+  font-weight: 600;
+}
+
+.install-btn {
+  padding: 0.45rem 0.95rem;
+  border-radius: 999px;
+  border: 1px solid var(--gold);
+  background: transparent;
+  color: var(--gold);
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+.install-btn:hover { background: var(--gold); color: #1a1405; }
+
+/* ---------- Layout ---------- */
+
+.container {
+  max-width: var(--maxw);
+  margin: 0 auto;
+  padding: 1.5rem 1.25rem 3rem;
+}
+
+.page-title { margin: 0.4rem 0 0.2rem; font-size: 1.8rem; color: var(--gold); }
+.page-sub { margin: 0 0 1.5rem; color: var(--text-dim); }
+
+/* ---------- Cards grid ---------- */
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+  gap: 1rem;
+}
+
+.card {
+  display: block;
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 1.1rem 1.2rem;
+  color: var(--text);
+  transition: background 0.15s ease, transform 0.15s ease;
+}
+.card:hover {
+  background: var(--card-hover);
+  text-decoration: none;
+  transform: translateY(-2px);
+}
+
+.card-top {
+  display: flex;
+  align-items: baseline;
+  gap: 0.6rem;
+}
+.card-glyph { font-size: 1.6rem; color: var(--gold); }
+.card-name { font-size: 1.15rem; font-weight: 600; font-family: Georgia, serif; }
+.card-sanskrit { color: var(--text-dim); font-size: 0.9rem; }
+
+.card-tagline {
+  margin: 0.55rem 0 0;
+  color: var(--text-dim);
+  font-size: 0.92rem;
+}
+
+.card .badges { margin-top: 0.7rem; }
+
+.house-number {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  background: var(--accent);
+  color: #fff;
+  font-weight: 700;
+  font-size: 0.95rem;
+}
+
+/* ---------- Badges / chips ---------- */
+
+.badges { display: flex; flex-wrap: wrap; gap: 0.4rem; }
+
+.badge {
+  display: inline-block;
+  padding: 0.18rem 0.65rem;
+  border-radius: 999px;
+  font-size: 0.8rem;
+  background: var(--bg-soft);
+  border: 1px solid var(--border);
+  color: var(--text-dim);
+}
+a.badge:hover { background: var(--card-hover); color: var(--text); text-decoration: none; }
+
+/* ---------- Detail pages ---------- */
+
+.detail-head {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-bottom: 0.25rem;
+}
+.detail-glyph { font-size: 3rem; color: var(--gold); line-height: 1; }
+.detail-title h1 { margin: 0; font-size: 2rem; color: var(--gold); }
+.detail-title .sanskrit { color: var(--text-dim); font-size: 1.05rem; }
+
+.detail-essence {
+  font-size: 1.1rem;
+  color: var(--gold-soft);
+  font-style: italic;
+  margin: 0.25rem 0 1rem;
+}
+
+.fact-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  gap: 0.6rem 1rem;
+  margin: 1rem 0 1.75rem;
+  padding: 1rem 1.2rem;
+  background: var(--bg-soft);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+}
+.fact dt {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--text-dim);
+  margin-bottom: 0.15rem;
+}
+.fact dd { margin: 0; font-size: 0.98rem; }
+
+.section { margin: 1.75rem 0; }
+.section h2 {
+  font-size: 1.2rem;
+  color: var(--gold);
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 0.35rem;
+  margin: 0 0 0.8rem;
+}
+
+.chip-list { display: flex; flex-wrap: wrap; gap: 0.45rem; list-style: none; padding: 0; margin: 0; }
+.chip-list li {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  padding: 0.3rem 0.85rem;
+  font-size: 0.9rem;
+}
+
+.plain-list { margin: 0; padding-left: 1.2rem; color: var(--text); }
+.plain-list li { margin: 0.25rem 0; }
+
+.question-list li {
+  font-style: italic;
+  color: var(--gold-soft);
+}
+
+.note {
+  color: var(--text-dim);
+  font-size: 0.9rem;
+  font-style: italic;
+  margin-top: 0.5rem;
+}
+
+.back-link {
+  display: inline-block;
+  margin-bottom: 1rem;
+  color: var(--text-dim);
+  font-size: 0.9rem;
+}
+.back-link:hover { color: var(--text); }
+
+/* ---------- Concepts ---------- */
+
+.concept-block { margin: 1.25rem 0; }
+.concept-block h3 { margin: 0 0 0.5rem; font-size: 1rem; color: var(--gold-soft); }
+.concept-block p { margin: 0.4rem 0; }
+
+.concept-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0.5rem 0;
+  font-size: 0.95rem;
+}
+.concept-table th, .concept-table td {
+  text-align: left;
+  padding: 0.5rem 0.75rem;
+  border: 1px solid var(--border);
+}
+.concept-table th {
+  background: var(--bg-soft);
+  color: var(--gold);
+  font-family: Georgia, serif;
+}
+
+.steps-list { counter-reset: step; list-style: none; padding: 0; margin: 0; }
+.steps-list li {
+  counter-increment: step;
+  margin: 0.5rem 0;
+  padding-left: 2.4rem;
+  position: relative;
+}
+.steps-list li::before {
+  content: counter(step);
+  position: absolute;
+  left: 0;
+  top: 0.05rem;
+  width: 1.6rem;
+  height: 1.6rem;
+  border-radius: 50%;
+  background: var(--accent);
+  color: #fff;
+  font-size: 0.85rem;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* ---------- Home ---------- */
+
+.hero {
+  text-align: center;
+  margin: 2rem 0 2.5rem;
+}
+.hero h1 { font-size: 2.1rem; color: var(--gold); margin: 0 0 0.5rem; }
+.hero p { color: var(--text-dim); max-width: 620px; margin: 0 auto; }
+
+/* ---------- Search results ---------- */
+
+.result-group { margin-bottom: 1.75rem; }
+.result-group h2 {
+  font-size: 1.05rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--text-dim);
+  margin: 0 0 0.6rem;
+}
+.no-results { color: var(--text-dim); font-style: italic; margin-top: 2rem; text-align: center; }
+
+/* ---------- Footer ---------- */
+
+.site-footer {
+  border-top: 1px solid var(--border);
+  padding: 1.25rem;
+  text-align: center;
+  color: var(--text-dim);
+  font-size: 0.85rem;
+}
+
+/* ---------- Small screens ---------- */
+
+@media (max-width: 640px) {
+  .site-header { gap: 0.6rem; }
+  .tabs { margin-left: 0; width: 100%; justify-content: space-between; }
+  .tabs a { padding: 0.4rem 0.6rem; font-size: 0.9rem; }
+  .search-wrap { max-width: none; order: 3; flex-basis: 100%; }
+  .hero h1 { font-size: 1.6rem; }
+  .detail-glyph { font-size: 2.2rem; }
+}

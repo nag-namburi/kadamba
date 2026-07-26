@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jyotish Reference — Planets, Signs &amp; Houses</title>
+  <meta name="description" content="A browsable reference of Vedic astrology: grahas, rashis and bhavas with their characteristics and significations.">
+  <link rel="manifest" href="manifest.webmanifest">
+  <meta name="theme-color" content="#10121f">
+  <link rel="icon" type="image/png" href="icons/icon-192.png">
+  <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="Jyotish">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#/">
+      <span class="brand-glyph" aria-hidden="true">☉</span>
+      <span class="brand-name">Jyotish Reference</span>
+    </a>
+    <div class="search-wrap">
+      <input id="search" type="search" placeholder="Search planets, signs, houses…"
+             aria-label="Search planets, signs and houses" autocomplete="off">
+    </div>
+    <nav class="tabs" aria-label="Categories">
+      <a href="#/planets" data-tab="planets">Planets</a>
+      <a href="#/signs" data-tab="signs">Signs</a>
+      <a href="#/houses" data-tab="houses">Houses</a>
+      <a href="#/concepts" data-tab="concepts">Concepts</a>
+    </nav>
+    <button id="install-btn" class="install-btn" type="button" hidden>Install app</button>
+  </header>
+
+  <main id="app" class="container" tabindex="-1"></main>
+
+  <footer class="site-footer">
+    <p>Content based on Parāśara and Jaimini traditions · For study and reference</p>
+  </footer>
+
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

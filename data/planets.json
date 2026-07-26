@@ -1,0 +1,314 @@
+[
+  {
+    "id": "sun",
+    "name": "Sun",
+    "sanskritName": "Surya",
+    "essence": "Authority",
+    "primarySignifications": ["Soul", "Father", "Authority", "Government", "Vitality"],
+    "represents": [
+      "Soul (Ātman)",
+      "Father",
+      "Authority",
+      "Government",
+      "Kings and rulers",
+      "Leadership",
+      "Self-esteem",
+      "Fame",
+      "Honor",
+      "Vitality",
+      "Bones",
+      "Eyes (especially right eye)",
+      "Heart"
+    ],
+    "psychologicalQualities": [
+      "Confidence",
+      "Independence",
+      "Dignity",
+      "Responsibility",
+      "Will power",
+      "Leadership"
+    ],
+    "professions": [
+      "Government",
+      "Administration",
+      "Politics",
+      "Medicine",
+      "Executive positions"
+    ]
+  },
+  {
+    "id": "moon",
+    "name": "Moon",
+    "sanskritName": "Chandra",
+    "essence": "Mind",
+    "primarySignifications": ["Mind", "Mother", "Emotions", "Nourishment"],
+    "represents": [
+      "Mind (Manas)",
+      "Mother",
+      "Emotions",
+      "Public popularity",
+      "Nourishment",
+      "Home",
+      "Fluids",
+      "Travel",
+      "Memory",
+      "Left eye",
+      "Blood plasma"
+    ],
+    "psychologicalQualities": [
+      "Compassion",
+      "Sensitivity",
+      "Adaptability",
+      "Caring nature"
+    ],
+    "professions": [
+      "Hospitality",
+      "Nursing",
+      "Public relations",
+      "Food industry",
+      "Shipping"
+    ]
+  },
+  {
+    "id": "mars",
+    "name": "Mars",
+    "sanskritName": "Mangala",
+    "essence": "Action",
+    "primarySignifications": ["Courage", "Energy", "Siblings", "Property", "Warfare"],
+    "represents": [
+      "Courage",
+      "Brothers",
+      "Soldiers",
+      "Weapons",
+      "Land",
+      "Property",
+      "Engineering",
+      "Surgery",
+      "Fire",
+      "Blood",
+      "Muscles"
+    ],
+    "psychologicalQualities": [
+      "Initiative",
+      "Aggression",
+      "Confidence",
+      "Determination"
+    ],
+    "professions": [
+      "Military",
+      "Police",
+      "Surgery",
+      "Engineering",
+      "Athletics"
+    ]
+  },
+  {
+    "id": "mercury",
+    "name": "Mercury",
+    "sanskritName": "Budha",
+    "essence": "Intellect",
+    "primarySignifications": ["Intelligence", "Speech", "Learning", "Commerce"],
+    "represents": [
+      "Intelligence",
+      "Logic",
+      "Speech",
+      "Mathematics",
+      "Writing",
+      "Commerce",
+      "Communication",
+      "Business",
+      "Education",
+      "Youth",
+      "Skin",
+      "Nervous system"
+    ],
+    "psychologicalQualities": [
+      "Curiosity",
+      "Adaptability",
+      "Analytical thinking",
+      "Humor"
+    ],
+    "professions": [
+      "Teaching",
+      "Accounting",
+      "IT",
+      "Journalism",
+      "Banking",
+      "Marketing"
+    ]
+  },
+  {
+    "id": "jupiter",
+    "name": "Jupiter",
+    "sanskritName": "Guru",
+    "essence": "Wisdom",
+    "primarySignifications": ["Wisdom", "Dharma", "Children", "Wealth", "Guru"],
+    "represents": [
+      "Wisdom",
+      "Dharma",
+      "Religion",
+      "Teachers",
+      "Children",
+      "Wealth",
+      "Prosperity",
+      "Justice",
+      "Charity",
+      "Sacred knowledge",
+      "Liver",
+      "Fat"
+    ],
+    "psychologicalQualities": [
+      "Optimism",
+      "Faith",
+      "Generosity",
+      "Ethics"
+    ],
+    "professions": [
+      "Teacher",
+      "Judge",
+      "Priest",
+      "Professor",
+      "Financial advisor",
+      "Counselor"
+    ]
+  },
+  {
+    "id": "venus",
+    "name": "Venus",
+    "sanskritName": "Shukra",
+    "essence": "Love",
+    "primarySignifications": ["Marriage", "Spouse", "Luxury", "Arts", "Happiness"],
+    "represents": [
+      "Wife (in a man's chart)",
+      "Marriage",
+      "Romance",
+      "Love",
+      "Beauty",
+      "Luxury",
+      "Music",
+      "Fine arts",
+      "Vehicles",
+      "Jewelry",
+      "Comfort",
+      "Reproductive organs"
+    ],
+    "psychologicalQualities": [
+      "Diplomacy",
+      "Charm",
+      "Refinement",
+      "Appreciation of beauty"
+    ],
+    "professions": [
+      "Artist",
+      "Musician",
+      "Fashion",
+      "Designer",
+      "Hospitality",
+      "Entertainment"
+    ]
+  },
+  {
+    "id": "saturn",
+    "name": "Saturn",
+    "sanskritName": "Shani",
+    "essence": "Discipline",
+    "primarySignifications": ["Work", "Discipline", "Longevity", "Suffering", "Service"],
+    "represents": [
+      "Longevity",
+      "Hard work",
+      "Labor",
+      "Poverty",
+      "Delays",
+      "Discipline",
+      "Karma",
+      "Service",
+      "Agriculture",
+      "Old age",
+      "Chronic diseases",
+      "Teeth",
+      "Legs"
+    ],
+    "psychologicalQualities": [
+      "Patience",
+      "Endurance",
+      "Responsibility",
+      "Humility"
+    ],
+    "professions": [
+      "Engineering",
+      "Mining",
+      "Agriculture",
+      "Manufacturing",
+      "Labor administration",
+      "Judiciary"
+    ]
+  },
+  {
+    "id": "rahu",
+    "name": "Rahu",
+    "sanskritName": "Rahu",
+    "essence": "Ambition",
+    "primarySignifications": ["Ambition", "Foreign influences", "Innovation", "Obsession"],
+    "represents": [
+      "Foreign countries",
+      "Foreign cultures",
+      "Technology",
+      "Aviation",
+      "Politics",
+      "Mass influence",
+      "Obsession",
+      "Ambition",
+      "Illusion",
+      "Innovation",
+      "Sudden rise",
+      "Unconventional paths"
+    ],
+    "psychologicalQualities": [
+      "Curiosity",
+      "Desire",
+      "Risk-taking",
+      "Nonconformity"
+    ],
+    "professions": [
+      "Technology",
+      "Artificial intelligence",
+      "Foreign trade",
+      "Politics",
+      "Film",
+      "Media",
+      "Aviation"
+    ]
+  },
+  {
+    "id": "ketu",
+    "name": "Ketu",
+    "sanskritName": "Ketu",
+    "essence": "Liberation",
+    "primarySignifications": ["Spirituality", "Detachment", "Liberation", "Intuition"],
+    "represents": [
+      "Moksha",
+      "Renunciation",
+      "Spirituality",
+      "Intuition",
+      "Mysticism",
+      "Detachment",
+      "Research",
+      "Past-life karmas",
+      "Mathematics",
+      "Hidden knowledge"
+    ],
+    "psychologicalQualities": [
+      "Detachment",
+      "Insight",
+      "Penetrating analysis",
+      "Independence"
+    ],
+    "professions": [
+      "Spiritual teacher",
+      "Research scientist",
+      "Astrologer",
+      "Philosopher",
+      "Investigator"
+    ]
+  }
+]

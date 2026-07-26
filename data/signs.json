@@ -1,0 +1,258 @@
+[
+  {
+    "id": "aries",
+    "name": "Aries",
+    "sanskritName": "Mesha",
+    "number": 1,
+    "ruler": "Mars",
+    "element": "Fire",
+    "modality": "Movable",
+    "purushartha": "Dharma",
+    "gender": "Odd (Masculine)",
+    "nature": "Active",
+    "characteristics": [
+      "Courageous",
+      "Independent",
+      "Energetic",
+      "Competitive",
+      "Honest and direct",
+      "Leadership ability",
+      "Quick decision-maker"
+    ],
+    "strengths": ["Initiative", "Confidence", "Bravery"],
+    "weaknesses": ["Anger", "Impatience", "Impulsiveness"]
+  },
+  {
+    "id": "taurus",
+    "name": "Taurus",
+    "sanskritName": "Vrishabha",
+    "number": 2,
+    "ruler": "Venus",
+    "element": "Earth",
+    "modality": "Fixed",
+    "purushartha": "Artha",
+    "gender": "Even (Feminine)",
+    "nature": "Stable",
+    "characteristics": [
+      "Patient",
+      "Stable",
+      "Practical",
+      "Wealth-oriented",
+      "Appreciates beauty and comfort",
+      "Loyal"
+    ],
+    "strengths": ["Endurance", "Reliability", "Financial sense"],
+    "weaknesses": ["Stubbornness", "Possessiveness", "Resistance to change"]
+  },
+  {
+    "id": "gemini",
+    "name": "Gemini",
+    "sanskritName": "Mithuna",
+    "number": 3,
+    "ruler": "Mercury",
+    "element": "Air",
+    "modality": "Dual",
+    "purushartha": "Kāma",
+    "gender": "Odd (Masculine)",
+    "nature": "Adaptable",
+    "characteristics": [
+      "Intelligent",
+      "Curious",
+      "Communicative",
+      "Versatile",
+      "Adaptable",
+      "Social"
+    ],
+    "strengths": ["Learning", "Writing", "Networking"],
+    "weaknesses": ["Restlessness", "Indecision", "Inconsistency"]
+  },
+  {
+    "id": "cancer",
+    "name": "Cancer",
+    "sanskritName": "Karka",
+    "number": 4,
+    "ruler": "Moon",
+    "element": "Water",
+    "modality": "Movable",
+    "purushartha": "Moksha",
+    "gender": "Even (Feminine)",
+    "nature": "Emotional",
+    "characteristics": [
+      "Caring",
+      "Emotional",
+      "Protective",
+      "Intuitive",
+      "Family-oriented"
+    ],
+    "strengths": ["Compassion", "Memory", "Nurturing ability"],
+    "weaknesses": ["Mood swings", "Emotional dependence", "Oversensitivity"]
+  },
+  {
+    "id": "leo",
+    "name": "Leo",
+    "sanskritName": "Simha",
+    "number": 5,
+    "ruler": "Sun",
+    "element": "Fire",
+    "modality": "Fixed",
+    "purushartha": "Dharma",
+    "gender": "Odd (Masculine)",
+    "nature": "Royal",
+    "characteristics": [
+      "Noble",
+      "Confident",
+      "Charismatic",
+      "Generous",
+      "Leadership qualities"
+    ],
+    "strengths": ["Authority", "Courage", "Creativity"],
+    "weaknesses": ["Pride", "Ego", "Dominance"]
+  },
+  {
+    "id": "virgo",
+    "name": "Virgo",
+    "sanskritName": "Kanya",
+    "number": 6,
+    "ruler": "Mercury",
+    "element": "Earth",
+    "modality": "Dual",
+    "purushartha": "Artha",
+    "gender": "Even (Feminine)",
+    "nature": "Analytical",
+    "characteristics": [
+      "Analytical",
+      "Organized",
+      "Practical",
+      "Service-oriented",
+      "Detail-focused"
+    ],
+    "strengths": ["Precision", "Planning", "Problem-solving"],
+    "weaknesses": ["Perfectionism", "Worry", "Overcritical nature"]
+  },
+  {
+    "id": "libra",
+    "name": "Libra",
+    "sanskritName": "Tula",
+    "number": 7,
+    "ruler": "Venus",
+    "element": "Air",
+    "modality": "Movable",
+    "purushartha": "Kāma",
+    "gender": "Odd (Masculine)",
+    "nature": "Harmonious",
+    "characteristics": [
+      "Diplomatic",
+      "Balanced",
+      "Fair-minded",
+      "Artistic",
+      "Cooperative"
+    ],
+    "strengths": ["Negotiation", "Partnerships", "Sense of justice"],
+    "weaknesses": ["Indecisiveness", "Dependence on approval", "Avoidance of conflict"]
+  },
+  {
+    "id": "scorpio",
+    "name": "Scorpio",
+    "sanskritName": "Vrischika",
+    "number": 8,
+    "ruler": "Mars",
+    "element": "Water",
+    "modality": "Fixed",
+    "purushartha": "Moksha",
+    "gender": "Even (Feminine)",
+    "nature": "Intense",
+    "characteristics": [
+      "Intense",
+      "Determined",
+      "Secretive",
+      "Transformative",
+      "Research-oriented"
+    ],
+    "strengths": ["Persistence", "Insight", "Emotional resilience"],
+    "weaknesses": ["Jealousy", "Suspicion", "Extremes of emotion"]
+  },
+  {
+    "id": "sagittarius",
+    "name": "Sagittarius",
+    "sanskritName": "Dhanu",
+    "number": 9,
+    "ruler": "Jupiter",
+    "element": "Fire",
+    "modality": "Dual",
+    "purushartha": "Dharma",
+    "gender": "Odd (Masculine)",
+    "nature": "Philosophical",
+    "characteristics": [
+      "Wise",
+      "Optimistic",
+      "Philosophical",
+      "Honest",
+      "Spiritual"
+    ],
+    "strengths": ["Teaching", "Vision", "Faith"],
+    "weaknesses": ["Bluntness", "Overconfidence", "Dogmatism"]
+  },
+  {
+    "id": "capricorn",
+    "name": "Capricorn",
+    "sanskritName": "Makara",
+    "number": 10,
+    "ruler": "Saturn",
+    "element": "Earth",
+    "modality": "Movable",
+    "purushartha": "Artha",
+    "gender": "Even (Feminine)",
+    "nature": "Practical",
+    "characteristics": [
+      "Disciplined",
+      "Responsible",
+      "Practical",
+      "Ambitious",
+      "Patient"
+    ],
+    "strengths": ["Organization", "Perseverance", "Leadership through effort"],
+    "weaknesses": ["Pessimism", "Rigidity", "Work-life imbalance"]
+  },
+  {
+    "id": "aquarius",
+    "name": "Aquarius",
+    "sanskritName": "Kumbha",
+    "number": 11,
+    "ruler": "Saturn",
+    "element": "Air",
+    "modality": "Fixed",
+    "purushartha": "Kāma",
+    "gender": "Odd (Masculine)",
+    "nature": "Humanitarian",
+    "characteristics": [
+      "Independent",
+      "Innovative",
+      "Humanitarian",
+      "Intellectual",
+      "Community-oriented"
+    ],
+    "strengths": ["Original thinking", "Social vision", "Objectivity"],
+    "weaknesses": ["Emotional detachment", "Unpredictability", "Stubborn ideals"]
+  },
+  {
+    "id": "pisces",
+    "name": "Pisces",
+    "sanskritName": "Meena",
+    "number": 12,
+    "ruler": "Jupiter",
+    "element": "Water",
+    "modality": "Dual",
+    "purushartha": "Moksha",
+    "gender": "Even (Feminine)",
+    "nature": "Spiritual",
+    "characteristics": [
+      "Compassionate",
+      "Spiritual",
+      "Intuitive",
+      "Imaginative",
+      "Charitable"
+    ],
+    "strengths": ["Empathy", "Devotion", "Creativity"],
+    "weaknesses": ["Escapism", "Confusion", "Difficulty setting boundaries"]
+  }
+]

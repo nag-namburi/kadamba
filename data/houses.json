@@ -1,0 +1,257 @@
+[
+  {
+    "id": "house-1",
+    "number": 1,
+    "name": "1st House",
+    "sanskritName": "Tanu Bhava",
+    "primarySignifications": ["Self", "Body", "Personality"],
+    "represents": [
+      "Physical body",
+      "Appearance",
+      "Personality",
+      "Character",
+      "Health",
+      "Self-confidence",
+      "Life direction",
+      "Vitality"
+    ],
+    "questionsItAnswers": ["Who am I?", "How do others perceive me?"],
+    "naturalKarakas": ["Sun"],
+    "notes": ["Also influenced by the Ascendant Lord."],
+    "classifications": ["Kendra", "Trikona"],
+    "purushartha": "Dharma"
+  },
+  {
+    "id": "house-2",
+    "number": 2,
+    "name": "2nd House",
+    "sanskritName": "Dhana Bhava",
+    "primarySignifications": ["Wealth", "Speech", "Family"],
+    "represents": [
+      "Wealth",
+      "Savings",
+      "Family",
+      "Speech",
+      "Food habits",
+      "Values",
+      "Face",
+      "Vision"
+    ],
+    "questionsItAnswers": ["What do I possess?", "How do I communicate?"],
+    "naturalKarakas": ["Jupiter (wealth)", "Venus (luxury)", "Mercury (speech)"],
+    "classifications": ["Panaphara"],
+    "purushartha": "Artha"
+  },
+  {
+    "id": "house-3",
+    "number": 3,
+    "name": "3rd House",
+    "sanskritName": "Sahaja Bhava",
+    "primarySignifications": ["Courage", "Siblings", "Communication"],
+    "represents": [
+      "Younger siblings",
+      "Courage",
+      "Initiative",
+      "Writing",
+      "Communication",
+      "Skills",
+      "Short journeys",
+      "Arts",
+      "Hands"
+    ],
+    "questionsItAnswers": ["How do I act?", "How do I communicate?"],
+    "naturalKarakas": ["Mars"],
+    "classifications": ["Upachaya", "Apoklima"],
+    "purushartha": "Kāma"
+  },
+  {
+    "id": "house-4",
+    "number": 4,
+    "name": "4th House",
+    "sanskritName": "Sukha Bhava",
+    "primarySignifications": ["Mother", "Home", "Happiness"],
+    "represents": [
+      "Mother",
+      "Home",
+      "Property",
+      "Vehicles",
+      "Education",
+      "Emotional happiness",
+      "Inner peace",
+      "Real estate"
+    ],
+    "questionsItAnswers": ["Where is my emotional security?"],
+    "naturalKarakas": ["Moon", "Venus"],
+    "classifications": ["Kendra"],
+    "purushartha": "Moksha"
+  },
+  {
+    "id": "house-5",
+    "number": 5,
+    "name": "5th House",
+    "sanskritName": "Putra Bhava",
+    "primarySignifications": ["Children", "Intelligence", "Mantra"],
+    "represents": [
+      "Children",
+      "Intelligence",
+      "Creativity",
+      "Education",
+      "Purva Punya",
+      "Mantras",
+      "Romance",
+      "Speculation"
+    ],
+    "questionsItAnswers": ["What do I create?"],
+    "naturalKarakas": ["Jupiter"],
+    "classifications": ["Trikona", "Panaphara"],
+    "purushartha": "Dharma"
+  },
+  {
+    "id": "house-6",
+    "number": 6,
+    "name": "6th House",
+    "sanskritName": "Ari Bhava",
+    "primarySignifications": ["Enemies", "Disease", "Service"],
+    "represents": [
+      "Disease",
+      "Debts",
+      "Enemies",
+      "Competition",
+      "Litigation",
+      "Service",
+      "Discipline",
+      "Daily work"
+    ],
+    "questionsItAnswers": ["What challenges must I overcome?"],
+    "naturalKarakas": ["Mars", "Saturn"],
+    "classifications": ["Upachaya", "Dusthana", "Apoklima"],
+    "purushartha": "Artha"
+  },
+  {
+    "id": "house-7",
+    "number": 7,
+    "name": "7th House",
+    "sanskritName": "Yuvati Bhava",
+    "primarySignifications": ["Marriage", "Partnerships"],
+    "represents": [
+      "Marriage",
+      "Spouse",
+      "Partnerships",
+      "Contracts",
+      "Public dealings",
+      "Business partnerships",
+      "Foreign residence (in some contexts)"
+    ],
+    "questionsItAnswers": ["How do I relate to others?"],
+    "naturalKarakas": ["Venus"],
+    "classifications": ["Kendra"],
+    "purushartha": "Kāma"
+  },
+  {
+    "id": "house-8",
+    "number": 8,
+    "name": "8th House",
+    "sanskritName": "Randhra Bhava",
+    "primarySignifications": ["Longevity", "Transformation"],
+    "represents": [
+      "Longevity",
+      "Sudden events",
+      "Transformation",
+      "Inheritance",
+      "Occult sciences",
+      "Mysticism",
+      "Hidden knowledge",
+      "Research"
+    ],
+    "questionsItAnswers": ["How do I transform?"],
+    "naturalKarakas": ["Saturn", "Ketu"],
+    "classifications": ["Dusthana", "Panaphara"],
+    "purushartha": "Moksha"
+  },
+  {
+    "id": "house-9",
+    "number": 9,
+    "name": "9th House",
+    "sanskritName": "Dharma Bhava",
+    "primarySignifications": ["Fortune", "Guru", "Father", "Religion"],
+    "represents": [
+      "Fortune",
+      "Dharma",
+      "Guru",
+      "Higher education",
+      "Pilgrimage",
+      "Religion",
+      "Philosophy",
+      "Father",
+      "Blessings"
+    ],
+    "questionsItAnswers": ["What gives my life meaning?"],
+    "naturalKarakas": ["Jupiter", "Sun (father)"],
+    "classifications": ["Trikona", "Apoklima"],
+    "purushartha": "Dharma"
+  },
+  {
+    "id": "house-10",
+    "number": 10,
+    "name": "10th House",
+    "sanskritName": "Karma Bhava",
+    "primarySignifications": ["Profession", "Status", "Actions"],
+    "represents": [
+      "Career",
+      "Profession",
+      "Status",
+      "Public image",
+      "Reputation",
+      "Authority",
+      "Actions",
+      "Responsibility"
+    ],
+    "questionsItAnswers": ["What is my contribution to society?"],
+    "naturalKarakas": ["Sun", "Mercury", "Saturn", "Jupiter (depending on profession)"],
+    "classifications": ["Kendra", "Upachaya"],
+    "purushartha": "Artha"
+  },
+  {
+    "id": "house-11",
+    "number": 11,
+    "name": "11th House",
+    "sanskritName": "Labha Bhava",
+    "primarySignifications": ["Gains", "Friends", "Ambitions"],
+    "represents": [
+      "Gains",
+      "Income",
+      "Friends",
+      "Networks",
+      "Elder siblings",
+      "Recognition",
+      "Ambitions",
+      "Fulfillment of desires"
+    ],
+    "questionsItAnswers": ["What do I achieve?"],
+    "naturalKarakas": ["Jupiter"],
+    "classifications": ["Upachaya", "Panaphara"],
+    "purushartha": "Kāma"
+  },
+  {
+    "id": "house-12",
+    "number": 12,
+    "name": "12th House",
+    "sanskritName": "Vyaya Bhava",
+    "primarySignifications": ["Loss", "Expenses", "Liberation"],
+    "represents": [
+      "Expenses",
+      "Losses",
+      "Charity",
+      "Foreign lands",
+      "Meditation",
+      "Sleep",
+      "Hospitals",
+      "Ashrams",
+      "Liberation (Moksha)"
+    ],
+    "questionsItAnswers": ["What must I let go of?"],
+    "naturalKarakas": ["Saturn", "Ketu"],
+    "classifications": ["Dusthana", "Apoklima"],
+    "purushartha": "Moksha"
+  }
+]

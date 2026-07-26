@@ -1,0 +1,215 @@
+[
+  {
+    "id": "graha-overview",
+    "title": "What are Naisargika Kārakatvas?",
+    "category": "planets",
+    "intro": "In Vedic astrology (Jyotiṣa), every planet (Graha) has natural significations called Naisargika Kārakatvas. These represent what the planet naturally signifies regardless of the ascendant. Both Parāśara and Jaimini astrology rely on these significations, although Jaimini also assigns Chara Kārakas (variable significators) based on planetary degrees.",
+    "blocks": [
+      {
+        "type": "table",
+        "title": "One-word Essence of Each Planet",
+        "headers": ["Planet", "One-word Essence"],
+        "rows": [
+          ["Sun", "Authority"],
+          ["Moon", "Mind"],
+          ["Mars", "Action"],
+          ["Mercury", "Intellect"],
+          ["Jupiter", "Wisdom"],
+          ["Venus", "Love"],
+          ["Saturn", "Discipline"],
+          ["Rahu", "Ambition"],
+          ["Ketu", "Liberation"]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "chara-karakas",
+    "title": "Chara Kārakas (Jaimini Astrology)",
+    "category": "planets",
+    "intro": "Jaimini adds another layer through Chara Kārakas, where planets take on roles based on their celestial longitude in a given chart.",
+    "blocks": [
+      {
+        "type": "table",
+        "headers": ["Chara Kāraka", "Signifies"],
+        "rows": [
+          ["Atmakaraka", "Soul, life's lessons"],
+          ["Amatyakaraka", "Career, vocation"],
+          ["Bhratrukaraka", "Siblings, courage"],
+          ["Matrukaraka", "Mother"],
+          ["Putrakaraka", "Children, creativity"],
+          ["Gnatikaraka", "Relatives, obstacles, conflicts"],
+          ["Darakaraka", "Spouse and partnerships"],
+          ["Pitrukaraka (in the 8-karaka system)", "Father, lineage"]
+        ]
+      },
+      {
+        "type": "text",
+        "text": "These Chara Kārakas do not replace the natural significations. For instance, the Sun naturally signifies the father, but if Saturn becomes the Pitrukaraka in a particular chart, Saturn also carries the father's role in Jaimini analysis."
+      }
+    ]
+  },
+  {
+    "id": "sign-classifications",
+    "title": "Classical Sign Classifications",
+    "category": "signs",
+    "intro": "Besides their individual characteristics, each sign belongs to several traditional groups.",
+    "blocks": [
+      {
+        "type": "table",
+        "headers": ["Classification", "Signs"],
+        "rows": [
+          ["Fire (Agni)", "Aries, Leo, Sagittarius"],
+          ["Earth (Bhūmi)", "Taurus, Virgo, Capricorn"],
+          ["Air (Vāyu)", "Gemini, Libra, Aquarius"],
+          ["Water (Jala)", "Cancer, Scorpio, Pisces"],
+          ["Movable (Chara)", "Aries, Cancer, Libra, Capricorn"],
+          ["Fixed (Sthira)", "Taurus, Leo, Scorpio, Aquarius"],
+          ["Dual (Dwisvabhāva)", "Gemini, Virgo, Sagittarius, Pisces"],
+          ["Dharma", "Aries, Leo, Sagittarius"],
+          ["Artha", "Taurus, Virgo, Capricorn"],
+          ["Kāma", "Gemini, Libra, Aquarius"],
+          ["Moksha", "Cancer, Scorpio, Pisces"],
+          ["Odd (Oja/Masculine)", "Aries, Gemini, Leo, Libra, Sagittarius, Aquarius"],
+          ["Even (Yugma/Feminine)", "Taurus, Cancer, Virgo, Scorpio, Capricorn, Pisces"]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "interpreting-a-rasi",
+    "title": "How to Interpret a Rāśi",
+    "category": "signs",
+    "intro": "When analyzing any sign in a horoscope, consider it in layers:",
+    "blocks": [
+      {
+        "type": "steps",
+        "items": [
+          "Ruling planet — Who governs the sign?",
+          "Element (Tattva) — How does it express energy?",
+          "Modality — Does it initiate, stabilize, or adapt?",
+          "Purushartha — What is its life aim (Dharma, Artha, Kāma, Moksha)?",
+          "Gender (Oja/Yugma) — Is its expression active or receptive?",
+          "Natural temperament — What are its inherent strengths and challenges?"
+        ]
+      },
+      {
+        "type": "text",
+        "title": "Example: Leo",
+        "text": "Leo is ruled by the Sun (authority and vitality), a Fire sign (dynamic expression), Fixed (steadfast), Dharma-oriented (purpose and righteousness), Odd/Masculine (active), and naturally inclined toward leadership and responsibility."
+      },
+      {
+        "type": "text",
+        "text": "This layered approach provides a much richer understanding than looking at the sign alone and is the method traditionally used in both Parāśara and Jaimini astrology."
+      }
+    ]
+  },
+  {
+    "id": "house-classifications",
+    "title": "House Classifications",
+    "category": "houses",
+    "intro": "The twelve houses are grouped into several classical categories.",
+    "blocks": [
+      {
+        "type": "list",
+        "title": "1. Kendras (Angular Houses) — 1, 4, 7, 10",
+        "items": ["Strength", "Stability", "Action", "Foundation of life"],
+        "text": "Strong planets in Kendras often become influential."
+      },
+      {
+        "type": "list",
+        "title": "2. Trikonas (Trinal Houses) — 1, 5, 9",
+        "items": ["Dharma", "Fortune", "Intelligence", "Blessings", "Spiritual merit"],
+        "text": "The combination of Kendra and Trikona lords is the basis for many Rāja Yogas in Parāśara."
+      },
+      {
+        "type": "list",
+        "title": "3. Upachayas (Growth Houses) — 3, 6, 10, 11",
+        "items": ["Improvement over time", "Effort", "Competition", "Achievement"],
+        "text": "Malefic planets (Mars, Saturn, Rahu) often perform well in these houses because they support persistence and overcoming obstacles."
+      },
+      {
+        "type": "list",
+        "title": "4. Dusthanas (Difficult Houses) — 6, 8, 12",
+        "items": ["Obstacles", "Disease", "Debts", "Loss", "Transformation", "Spiritual growth through challenges"],
+        "text": "Although considered difficult, these houses can also foster resilience, healing, and spiritual development."
+      },
+      {
+        "type": "list",
+        "title": "5. Panaphara Houses (Succedent) — 2, 5, 8, 11",
+        "items": [],
+        "text": "Associated with sustaining and developing what has been initiated."
+      },
+      {
+        "type": "list",
+        "title": "6. Apoklima Houses (Cadent) — 3, 6, 9, 12",
+        "items": [],
+        "text": "Associated with movement, learning, transition, and adaptation."
+      }
+    ]
+  },
+  {
+    "id": "houses-purusharthas",
+    "title": "Houses and the Four Purusharthas",
+    "category": "houses",
+    "blocks": [
+      {
+        "type": "table",
+        "headers": ["Purushartha", "Houses", "Meaning"],
+        "rows": [
+          ["Dharma", "1, 5, 9", "Identity, purpose, higher principles"],
+          ["Artha", "2, 6, 10", "Resources, work, achievement"],
+          ["Kāma", "3, 7, 11", "Desires, relationships, aspirations"],
+          ["Moksha", "4, 8, 12", "Inner peace, transformation, liberation"]
+        ]
+      },
+      {
+        "type": "text",
+        "text": "This pattern mirrors the Purushartha grouping of the zodiac signs and is a key organizing principle in Vedic astrology."
+      }
+    ]
+  },
+  {
+    "id": "houses-jaimini",
+    "title": "Houses in Jaimini Astrology",
+    "category": "houses",
+    "intro": "Jaimini astrology uses the houses somewhat differently from Parāśara:",
+    "blocks": [
+      {
+        "type": "list",
+        "items": [
+          "Rāśis (signs) are often treated as primary, with Rāśi dṛṣṭi (sign aspects) playing a major role.",
+          "Chara Karakas assign life roles (such as spouse, children, or career) to planets based on their longitude.",
+          "Karakamsha Lagna (the Navamsa sign occupied by the Atmakaraka, projected into the birth chart) becomes a special reference point for spiritual and vocational analysis.",
+          "Arudha Padas reveal how the affairs of a house are perceived or manifest in the external world.",
+          "House results are interpreted together with the house lord, occupying planets, aspects, strength, and relevant dashas."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "who-how-where",
+    "title": "The Big Picture: Who, How, Where",
+    "category": "general",
+    "intro": "You can think of a horoscope in this way:",
+    "blocks": [
+      {
+        "type": "list",
+        "items": [
+          "Planets (Grahas) = Who is acting (the actors or agents).",
+          "Signs (Rāśis) = How they act (their style, temperament, and motivation).",
+          "Houses (Bhāvas) = Where they act (the area of life affected)."
+        ]
+      },
+      {
+        "type": "text",
+        "title": "Example: Mars in Capricorn in the 10th house",
+        "text": "Mars brings action, courage, initiative. Capricorn gives a disciplined, practical, goal-oriented expression. The 10th house is career, profession, public reputation. Together, this combination often indicates someone who channels energy into disciplined professional achievement and leadership."
+      },
+      {
+        "type": "text",
+        "text": "The final interpretation, however, always depends on the complete chart, including planetary dignity, aspects, yogas, and dashas."
+      }
+    ]
+  }
+]
