@@ -1,4 +1,4 @@
-/* Jyotish Reference — app logic (vanilla JS, hash routing) */
+/* Kadamba — app logic (vanilla JS, hash routing) */
 (function () {
   "use strict";
 
@@ -133,7 +133,7 @@
     var analogy = concepts.find(function (c) { return c.id === "who-how-where"; });
     return (
       '<section class="hero">' +
-        "<h1>Jyotish Reference</h1>" +
+        "<h1>Kadamba</h1>" +
         "<p>The building blocks of Vedic astrology — <strong>9 planets</strong> (grahas, the <em>who</em>), " +
         "<strong>12 signs</strong> (rāśis, the <em>how</em>) and <strong>12 houses</strong> " +
         "(bhāvas, the <em>where</em>) — with their characteristics and significations.</p>" +

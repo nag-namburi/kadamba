@@ -1,4 +1,4 @@
-# Jyotish Reference
+# Kadamba
 
 A static web app for browsing the building blocks of Vedic astrology:
 **9 planets (grahas)**, **12 signs (rāśis)**, **12 houses (bhāvas)** — their

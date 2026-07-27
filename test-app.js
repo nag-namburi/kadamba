@@ -60,7 +60,7 @@ const data = (() => {
 })();
 
 // Home + lists
-check("", ["Jyotish Reference", "who", "how", "where"]);
+check("", ["Kadamba", "who", "how", "where"]);
 check("#/planets", data.planets.map((p) => p.name));
 check("#/signs", ["Mesha", "Meena", "Vrischika"]);
 check("#/houses", ["Tanu Bhava", "Vyaya Bhava"]);

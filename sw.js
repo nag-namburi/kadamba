@@ -1,9 +1,9 @@
-/* Jyotish Reference — service worker (offline support).
+/* Kadamba — service worker (offline support).
    Cache-first: the whole app is static, so serve from cache and
    refresh the cache from the network in the background.
    Bump CACHE_VERSION whenever app files change to force an update. */
 
-var CACHE_VERSION = "jyotish-v1";
+var CACHE_VERSION = "kadamba-v1";
 
 var ASSETS = [
   "./",

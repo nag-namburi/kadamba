@@ -1,12 +1,12 @@
-# Requirements — Jyotish Reference App (working title)
+# Requirements — Kadamba
 
-> Status: **DRAFT v1** — assumptions marked with ❓ need your confirmation.
+> Status: **v1 built & deployed** — https://skipit.github.io/kadamba/
 
 ## 1. Purpose
 
 A web app that displays the characteristics of Vedic astrology entities —
 **planets (grahas)**, **signs (rashis)**, and **houses (bhavas)** — as a clean,
-browsable reference. Think "interactive encyclopedia of Jyotish building blocks."
+browsable reference. Think "interactive encyclopedia of Kadamba building blocks."
 
 ## 2. Target Users
 
@@ -89,4 +89,4 @@ houses in Jaimini, and the "who/how/where" big-picture analogy.
 2. Just for you, or will you publish it for others? — *open*
 3. ~~Content depth?~~ → compact reference style, per source documents
 4. ~~Framework?~~ → vanilla JS (no installs needed)
-5. App name preference? — *open* (using "Jyotish Reference" for now)
+5. ~~App name preference?~~ → **Kadamba** (app + repo renamed 2026-07-26)
