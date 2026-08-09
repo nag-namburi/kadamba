@@ -3,7 +3,7 @@
    refresh the cache from the network in the background.
    Bump CACHE_VERSION whenever app files change to force an update. */
 
-var CACHE_VERSION = "kadamba-v1";
+var CACHE_VERSION = "kadamba-v2";
 
 var ASSETS = [
   "./",
