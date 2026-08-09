@@ -177,6 +177,29 @@
     return '<a class="back-link" href="' + hash + '">← ' + esc(label) + "</a>";
   }
 
+  /* Naisargika Maitri section on planet pages (7 classical grahas only). */
+  function renderRelationships(p) {
+    var r = p.naturalRelationships;
+    var conceptLink = '<a href="#/concepts/naisargika-maitri">Naisargika Maitri</a>';
+    if (!r) {
+      return '<p class="note">' + esc(p.name) + " is not part of the classical Naisargika Maitri " +
+        "(natural friendship) table — see " + conceptLink + ".</p>";
+    }
+    function rel(names) {
+      return names.length ? names.map(planetLink).join(", ") : "None";
+    }
+    return (
+      '<div class="section"><h2>Natural relationships (Naisargika Maitri)</h2>' +
+      '<dl class="fact-grid">' +
+        '<div class="fact"><dt>Friends</dt><dd>' + rel(r.friends) + "</dd></div>" +
+        '<div class="fact"><dt>Enemies</dt><dd>' + rel(r.enemies) + "</dd></div>" +
+        '<div class="fact"><dt>Neutral</dt><dd>' + rel(r.neutrals) + "</dd></div>" +
+      "</dl>" +
+      '<p class="note">Permanent relationships, independent of chart placement — see ' + conceptLink +
+      " for how they combine with temporary (Tatkālika) friendships.</p></div>"
+    );
+  }
+
   function renderPlanet(id) {
     var p = planets.find(function (x) { return x.id === id; });
     if (!p) return renderNotFound();
@@ -212,6 +235,8 @@
             }).join(", ") + "</dd>"
           : "") +
       "</dl>" +
+
+      renderRelationships(p) +
 
       '<div class="section"><h2>Represents</h2>' + chipList(p.represents) + "</div>" +
       '<div class="section"><h2>Psychological qualities</h2>' + chipList(p.psychologicalQualities) + "</div>" +

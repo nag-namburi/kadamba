@@ -6,6 +6,20 @@ window.APP_DATA = {
       "name": "Sun",
       "sanskritName": "Surya",
       "essence": "Authority",
+      "naturalRelationships": {
+        "friends": [
+          "Moon",
+          "Mars",
+          "Jupiter"
+        ],
+        "enemies": [
+          "Venus",
+          "Saturn"
+        ],
+        "neutrals": [
+          "Mercury"
+        ]
+      },
       "primarySignifications": [
         "Soul",
         "Father",
@@ -49,6 +63,19 @@ window.APP_DATA = {
       "name": "Moon",
       "sanskritName": "Chandra",
       "essence": "Mind",
+      "naturalRelationships": {
+        "friends": [
+          "Sun",
+          "Mercury"
+        ],
+        "enemies": [],
+        "neutrals": [
+          "Mars",
+          "Jupiter",
+          "Venus",
+          "Saturn"
+        ]
+      },
       "primarySignifications": [
         "Mind",
         "Mother",
@@ -87,6 +114,20 @@ window.APP_DATA = {
       "name": "Mars",
       "sanskritName": "Mangala",
       "essence": "Action",
+      "naturalRelationships": {
+        "friends": [
+          "Sun",
+          "Moon",
+          "Jupiter"
+        ],
+        "enemies": [
+          "Mercury"
+        ],
+        "neutrals": [
+          "Venus",
+          "Saturn"
+        ]
+      },
       "primarySignifications": [
         "Courage",
         "Energy",
@@ -126,6 +167,20 @@ window.APP_DATA = {
       "name": "Mercury",
       "sanskritName": "Budha",
       "essence": "Intellect",
+      "naturalRelationships": {
+        "friends": [
+          "Sun",
+          "Venus"
+        ],
+        "enemies": [
+          "Moon"
+        ],
+        "neutrals": [
+          "Mars",
+          "Jupiter",
+          "Saturn"
+        ]
+      },
       "primarySignifications": [
         "Intelligence",
         "Speech",
@@ -166,6 +221,20 @@ window.APP_DATA = {
       "name": "Jupiter",
       "sanskritName": "Guru",
       "essence": "Wisdom",
+      "naturalRelationships": {
+        "friends": [
+          "Sun",
+          "Moon",
+          "Mars"
+        ],
+        "enemies": [
+          "Mercury",
+          "Venus"
+        ],
+        "neutrals": [
+          "Saturn"
+        ]
+      },
       "primarySignifications": [
         "Wisdom",
         "Dharma",
@@ -207,6 +276,20 @@ window.APP_DATA = {
       "name": "Venus",
       "sanskritName": "Shukra",
       "essence": "Love",
+      "naturalRelationships": {
+        "friends": [
+          "Mercury",
+          "Saturn"
+        ],
+        "enemies": [
+          "Sun",
+          "Moon"
+        ],
+        "neutrals": [
+          "Mars",
+          "Jupiter"
+        ]
+      },
       "primarySignifications": [
         "Marriage",
         "Spouse",
@@ -248,6 +331,20 @@ window.APP_DATA = {
       "name": "Saturn",
       "sanskritName": "Shani",
       "essence": "Discipline",
+      "naturalRelationships": {
+        "friends": [
+          "Mercury",
+          "Venus"
+        ],
+        "enemies": [
+          "Sun",
+          "Moon",
+          "Mars"
+        ],
+        "neutrals": [
+          "Jupiter"
+        ]
+      },
       "primarySignifications": [
         "Work",
         "Discipline",
@@ -1224,6 +1321,117 @@ window.APP_DATA = {
         {
           "type": "text",
           "text": "These Chara Kārakas do not replace the natural significations. For instance, the Sun naturally signifies the father, but if Saturn becomes the Pitrukaraka in a particular chart, Saturn also carries the father's role in Jaimini analysis."
+        }
+      ]
+    },
+    {
+      "id": "naisargika-maitri",
+      "title": "Naisargika Maitri — Natural Planetary Friendships",
+      "category": "planets",
+      "intro": "In the Parāśara system, Naisargika Maitri is the permanent friendship, enmity, or neutrality between planets — independent of their placement in any horoscope. It applies to the seven classical grahas; Rāhu and Ketu are generally not included in the classical table.",
+      "blocks": [
+        {
+          "type": "table",
+          "title": "Naisargika Relationship Chart (Parāśara)",
+          "headers": [
+            "Planet",
+            "Friends",
+            "Enemies",
+            "Neutrals"
+          ],
+          "rows": [
+            [
+              "Sun (Ravi)",
+              "Moon, Mars, Jupiter",
+              "Venus, Saturn",
+              "Mercury"
+            ],
+            [
+              "Moon (Chandra)",
+              "Sun, Mercury",
+              "None",
+              "Mars, Jupiter, Venus, Saturn"
+            ],
+            [
+              "Mars (Kuja)",
+              "Sun, Moon, Jupiter",
+              "Mercury",
+              "Venus, Saturn"
+            ],
+            [
+              "Mercury (Budha)",
+              "Sun, Venus",
+              "Moon",
+              "Mars, Jupiter, Saturn"
+            ],
+            [
+              "Jupiter (Guru)",
+              "Sun, Moon, Mars",
+              "Mercury, Venus",
+              "Saturn"
+            ],
+            [
+              "Venus (Śukra)",
+              "Mercury, Saturn",
+              "Sun, Moon",
+              "Mars, Jupiter"
+            ],
+            [
+              "Saturn (Śani)",
+              "Mercury, Venus",
+              "Sun, Moon, Mars",
+              "Jupiter"
+            ]
+          ]
+        },
+        {
+          "type": "steps",
+          "title": "How to use this table",
+          "items": [
+            "Planet in a friend's sign — the planet gets support. Example: Jupiter in Cancer (the Moon's sign) is supported because the Moon is Jupiter's natural friend.",
+            "Planet in an enemy's sign — the planet's expression becomes less comfortable. Example: Jupiter in Gemini (Mercury's sign), because Mercury is Jupiter's natural enemy.",
+            "Planet in a neutral sign — the planet gives moderate results."
+          ]
+        },
+        {
+          "type": "text",
+          "title": "Important Parāśara point: temporary + natural relationship",
+          "text": "For accurate judgment, Parāśara combines Naisargika Maitri (natural relationship) with Tatkālika Maitri (temporary relationship based on house positions). Together they form the Pañcadhā Maitri — the five-fold friendship."
+        },
+        {
+          "type": "table",
+          "title": "Pañcadhā Maitri (Five-fold Friendship)",
+          "headers": [
+            "Combined Relationship",
+            "Result"
+          ],
+          "rows": [
+            [
+              "Great Friend",
+              "Excellent support"
+            ],
+            [
+              "Friend",
+              "Good support"
+            ],
+            [
+              "Neutral",
+              "Average"
+            ],
+            [
+              "Enemy",
+              "Difficulty"
+            ],
+            [
+              "Great Enemy",
+              "Strong obstruction"
+            ]
+          ]
+        },
+        {
+          "type": "text",
+          "title": "Example: Jupiter in Sagittarius",
+          "text": "Jupiter in Sagittarius is in its own sign — maximum dignity. If the Sun is conjunct Jupiter, Jupiter receives support, because the Sun is Jupiter's natural friend. Mars aspecting Jupiter also supports, since Mars is a natural friend. Mercury conjunct Jupiter introduces some tension, because Mercury is Jupiter's natural enemy. Saturn conjunct Jupiter is neutral to Jupiter. This kind of combined reading — dignity, conjunctions, and aspects weighed together — is what Parāśara recommends, rather than judging one factor alone."
         }
       ]
     },

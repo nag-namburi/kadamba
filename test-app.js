@@ -87,6 +87,12 @@ check("#/houses/house-2", ['href="#/planets/jupiter"', "(wealth)"]);  // karaka 
 check("#/houses/house-1", ['href="#/planets/sun"', "Ascendant Lord"]); // note preserved
 check("#/houses/house-6", ['href="#/concepts/house-classifications"']); // classification → concept
 check("#/signs/leo", ['href="#/concepts/interpreting-a-rasi"']);
+check("#/planets/jupiter", ['href="#/planets/sun"', 'href="#/planets/mercury"',
+  'href="#/concepts/naisargika-maitri"']);                       // friends/enemies linked + concept
+check("#/planets/moon", ["Friends", "None"]);                    // Moon has no natural enemies
+check("#/planets/rahu", ["not part of the classical",
+  'href="#/concepts/naisargika-maitri"']);                       // nodes noted as outside the table
+check("#/concepts/naisargika-maitri", ["Saturn (Śani)", "Pañcadhā Maitri", "Great Enemy"]);
 
 // 404s
 check("#/bogus", ["Not found"]);

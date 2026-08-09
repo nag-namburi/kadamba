@@ -4,6 +4,11 @@
     "name": "Sun",
     "sanskritName": "Surya",
     "essence": "Authority",
+    "naturalRelationships": {
+      "friends": ["Moon", "Mars", "Jupiter"],
+      "enemies": ["Venus", "Saturn"],
+      "neutrals": ["Mercury"]
+    },
     "primarySignifications": ["Soul", "Father", "Authority", "Government", "Vitality"],
     "represents": [
       "Soul (Ātman)",
@@ -41,6 +46,11 @@
     "name": "Moon",
     "sanskritName": "Chandra",
     "essence": "Mind",
+    "naturalRelationships": {
+      "friends": ["Sun", "Mercury"],
+      "enemies": [],
+      "neutrals": ["Mars", "Jupiter", "Venus", "Saturn"]
+    },
     "primarySignifications": ["Mind", "Mother", "Emotions", "Nourishment"],
     "represents": [
       "Mind (Manas)",
@@ -74,6 +84,11 @@
     "name": "Mars",
     "sanskritName": "Mangala",
     "essence": "Action",
+    "naturalRelationships": {
+      "friends": ["Sun", "Moon", "Jupiter"],
+      "enemies": ["Mercury"],
+      "neutrals": ["Venus", "Saturn"]
+    },
     "primarySignifications": ["Courage", "Energy", "Siblings", "Property", "Warfare"],
     "represents": [
       "Courage",
@@ -107,6 +122,11 @@
     "name": "Mercury",
     "sanskritName": "Budha",
     "essence": "Intellect",
+    "naturalRelationships": {
+      "friends": ["Sun", "Venus"],
+      "enemies": ["Moon"],
+      "neutrals": ["Mars", "Jupiter", "Saturn"]
+    },
     "primarySignifications": ["Intelligence", "Speech", "Learning", "Commerce"],
     "represents": [
       "Intelligence",
@@ -142,6 +162,11 @@
     "name": "Jupiter",
     "sanskritName": "Guru",
     "essence": "Wisdom",
+    "naturalRelationships": {
+      "friends": ["Sun", "Moon", "Mars"],
+      "enemies": ["Mercury", "Venus"],
+      "neutrals": ["Saturn"]
+    },
     "primarySignifications": ["Wisdom", "Dharma", "Children", "Wealth", "Guru"],
     "represents": [
       "Wisdom",
@@ -177,6 +202,11 @@
     "name": "Venus",
     "sanskritName": "Shukra",
     "essence": "Love",
+    "naturalRelationships": {
+      "friends": ["Mercury", "Saturn"],
+      "enemies": ["Sun", "Moon"],
+      "neutrals": ["Mars", "Jupiter"]
+    },
     "primarySignifications": ["Marriage", "Spouse", "Luxury", "Arts", "Happiness"],
     "represents": [
       "Wife (in a man's chart)",
@@ -212,6 +242,11 @@
     "name": "Saturn",
     "sanskritName": "Shani",
     "essence": "Discipline",
+    "naturalRelationships": {
+      "friends": ["Mercury", "Venus"],
+      "enemies": ["Sun", "Moon", "Mars"],
+      "neutrals": ["Jupiter"]
+    },
     "primarySignifications": ["Work", "Discipline", "Longevity", "Suffering", "Service"],
     "represents": [
       "Longevity",
