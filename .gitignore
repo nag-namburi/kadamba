@@ -2,9 +2,6 @@
 .vscode/
 .claude/
 
-# Source documents (content already lives in data/*.json)
-*.docx
-
 # OS cruft
 .DS_Store
 Thumbs.db
