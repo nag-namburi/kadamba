@@ -1,6 +1,6 @@
 # Requirements — Kadamba
 
-> Status: **v1 built & deployed** — https://skipit.github.io/kadamba/
+> Status: **v1 built & deployed** — https://nag-namburi.github.io/kadamba/
 
 ## 1. Purpose
 
@@ -29,7 +29,8 @@ significations, represents (full list), psychological qualities, professions.
 Mesha (Aries) through Meena (Pisces).
 
 Each sign has: id, name, Sanskrit name, number (1–12), ruling planet, element,
-modality, purushartha, gender, nature, characteristics, strengths, weaknesses.
+modality, purushartha, gender, nature, characteristics, strengths, weaknesses,
+Kalapurusha body parts, and a purushartha-expression note.
 
 ### 3.3 House (Bhava) — 12 entities ✅ converted
 
@@ -37,10 +38,13 @@ Each house has: id, number, name, Sanskrit name, primary significations,
 represents, questions it answers, natural karakas, classifications
 (Kendra/Trikona/Upachaya/Dusthana/Panaphara/Apoklima), purushartha.
 
-### 3.4 Concepts — 8 supplementary guides ✅ converted
-Planet essences table, Chara Karakas (Jaimini), classical sign classifications,
-how to interpret a Rāśi, house classification groups, houses & purusharthas,
-houses in Jaimini, and the "who/how/where" big-picture analogy.
+### 3.4 Concepts — 15 supplementary guides ✅ converted
+Planet essences table, Chara Karakas (Jaimini), Naisargika Maitri, retrograde
+planets (Vakri), classical sign classifications, how to interpret a Rāśi,
+Rāśi Tattvas (elements), Purusharthas of the signs, Rāśi body parts
+(Kalapurusha), house classification groups, houses & purusharthas, houses in
+Jaimini, Viparīta Rāja Yoga, the "who/how/where" big-picture analogy, and the
+method of delineation.
 
 ## 4. Functional Requirements
 
@@ -53,7 +57,7 @@ houses in Jaimini, and the "who/how/where" big-picture analogy.
 | FR-5 | Cross-links between entities (e.g., Mars ↔ Mesha, planet ↔ exaltation sign) | Should |
 | FR-6 | Responsive layout (usable on phone and desktop) | Must |
 | FR-7 | Filter bhavas by category, signs by element, planets by nature | Nice |
-| FR-8 | "Concepts" section with the 8 supplementary guides | Should |
+| FR-8 | "Concepts" section with the supplementary guides | Should |
 
 ## 5. Non-Functional Requirements
 

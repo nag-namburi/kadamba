@@ -20,7 +20,9 @@
       "Quick decision-maker"
     ],
     "strengths": ["Initiative", "Confidence", "Bravery"],
-    "weaknesses": ["Anger", "Impatience", "Impulsiveness"]
+    "weaknesses": ["Anger", "Impatience", "Impulsiveness"],
+    "bodyParts": ["Head", "Brain", "Face"],
+    "purusharthaNote": "Dharma through action — takes initiative and protects others; courageous, pioneering, and willing to fight for justice. Can become impatient or impulsive if afflicted."
   },
   {
     "id": "taurus",
@@ -42,7 +44,9 @@
       "Loyal"
     ],
     "strengths": ["Endurance", "Reliability", "Financial sense"],
-    "weaknesses": ["Stubbornness", "Possessiveness", "Resistance to change"]
+    "weaknesses": ["Stubbornness", "Possessiveness", "Resistance to change"],
+    "bodyParts": ["Face", "Mouth", "Throat", "Neck", "Vocal cords"],
+    "purusharthaNote": "Artha through accumulation and preservation — values wealth, comfort, and stability; patient and dependable; good with finances, banking, agriculture, food, music, or luxury goods. Can become overly attached to possessions if afflicted."
   },
   {
     "id": "gemini",
@@ -64,7 +68,9 @@
       "Social"
     ],
     "strengths": ["Learning", "Writing", "Networking"],
-    "weaknesses": ["Restlessness", "Indecision", "Inconsistency"]
+    "weaknesses": ["Restlessness", "Indecision", "Inconsistency"],
+    "bodyParts": ["Shoulders", "Arms", "Hands", "Lungs", "Nervous system"],
+    "purusharthaNote": "Kāma through knowledge and communication — curious and versatile; enjoys learning, writing, teaching, and conversation; skilled at networking and connecting people. Can become restless or scattered if afflicted."
   },
   {
     "id": "cancer",
@@ -85,7 +91,9 @@
       "Family-oriented"
     ],
     "strengths": ["Compassion", "Memory", "Nurturing ability"],
-    "weaknesses": ["Mood swings", "Emotional dependence", "Oversensitivity"]
+    "weaknesses": ["Mood swings", "Emotional dependence", "Oversensitivity"],
+    "bodyParts": ["Chest", "Breasts", "Lungs", "Stomach"],
+    "purusharthaNote": "Moksha through nurturing and emotional growth — caring, protective, and highly intuitive; seeks emotional security. Spiritual lesson: transforming emotional attachment into unconditional love. Moodiness or emotional dependency if afflicted."
   },
   {
     "id": "leo",
@@ -106,7 +114,9 @@
       "Leadership qualities"
     ],
     "strengths": ["Authority", "Courage", "Creativity"],
-    "weaknesses": ["Pride", "Ego", "Dominance"]
+    "weaknesses": ["Pride", "Ego", "Dominance"],
+    "bodyParts": ["Heart", "Upper back", "Spine"],
+    "purusharthaNote": "Dharma through leadership and authority — protects society and upholds order; noble, generous, and dignified. Can become proud or authoritarian if afflicted."
   },
   {
     "id": "virgo",
@@ -127,7 +137,9 @@
       "Detail-focused"
     ],
     "strengths": ["Precision", "Planning", "Problem-solving"],
-    "weaknesses": ["Perfectionism", "Worry", "Overcritical nature"]
+    "weaknesses": ["Perfectionism", "Worry", "Overcritical nature"],
+    "bodyParts": ["Abdomen", "Intestines", "Pancreas", "Digestive system"],
+    "purusharthaNote": "Artha through skill and service — analytical and detail-oriented; excels in planning, accounting, medicine, research, engineering, and administration; gains through expertise and precision. Can become overly critical or perfectionistic if afflicted."
   },
   {
     "id": "libra",
@@ -148,7 +160,9 @@
       "Cooperative"
     ],
     "strengths": ["Negotiation", "Partnerships", "Sense of justice"],
-    "weaknesses": ["Indecisiveness", "Dependence on approval", "Avoidance of conflict"]
+    "weaknesses": ["Indecisiveness", "Dependence on approval", "Avoidance of conflict"],
+    "bodyParts": ["Kidneys", "Lower back", "Lumbar region", "Skin balance"],
+    "purusharthaNote": "Kāma through relationships and harmony — diplomatic and balanced; values fairness, beauty, and partnership; strong sense of aesthetics; good at negotiation and mediation. Can become indecisive or overly dependent on others if afflicted."
   },
   {
     "id": "scorpio",
@@ -169,7 +183,9 @@
       "Research-oriented"
     ],
     "strengths": ["Persistence", "Insight", "Emotional resilience"],
-    "weaknesses": ["Jealousy", "Suspicion", "Extremes of emotion"]
+    "weaknesses": ["Jealousy", "Suspicion", "Extremes of emotion"],
+    "bodyParts": ["Reproductive organs", "Urinary tract", "Colon", "Rectum"],
+    "purusharthaNote": "Moksha through transformation — intense, determined, investigative, and perceptive; interested in hidden knowledge, psychology, or mysticism; strong capacity for regeneration. Spiritual lesson: transforming fear, ego, and attachment into wisdom. Jealousy, secrecy, or obsession if afflicted."
   },
   {
     "id": "sagittarius",
@@ -190,7 +206,9 @@
       "Spiritual"
     ],
     "strengths": ["Teaching", "Vision", "Faith"],
-    "weaknesses": ["Bluntness", "Overconfidence", "Dogmatism"]
+    "weaknesses": ["Bluntness", "Overconfidence", "Dogmatism"],
+    "bodyParts": ["Hips", "Thighs", "Sciatic nerves"],
+    "purusharthaNote": "Dharma through wisdom and teaching — seeks truth, philosophy, and spiritual knowledge; loves learning, teaching, and guiding others. Can become dogmatic or overly idealistic if afflicted."
   },
   {
     "id": "capricorn",
@@ -211,7 +229,9 @@
       "Patient"
     ],
     "strengths": ["Organization", "Perseverance", "Leadership through effort"],
-    "weaknesses": ["Pessimism", "Rigidity", "Work-life imbalance"]
+    "weaknesses": ["Pessimism", "Rigidity", "Work-life imbalance"],
+    "bodyParts": ["Knees", "Joints", "Skeletal structure"],
+    "purusharthaNote": "Artha through discipline and achievement — ambitious and responsible; excellent organizational and managerial ability; works patiently toward long-term goals; often succeeds in government, business, engineering, or executive roles. Can become overly work-focused or pessimistic if afflicted."
   },
   {
     "id": "aquarius",
@@ -232,7 +252,9 @@
       "Community-oriented"
     ],
     "strengths": ["Original thinking", "Social vision", "Objectivity"],
-    "weaknesses": ["Emotional detachment", "Unpredictability", "Stubborn ideals"]
+    "weaknesses": ["Emotional detachment", "Unpredictability", "Stubborn ideals"],
+    "bodyParts": ["Calves", "Ankles", "Circulation"],
+    "purusharthaNote": "Kāma through ideals and society — humanitarian and progressive; interested in groups, organizations, and social causes; independent thinker with broad vision; enjoys friendships and intellectual communities. Can become detached or overly unconventional if afflicted."
   },
   {
     "id": "pisces",
@@ -253,6 +275,8 @@
       "Charitable"
     ],
     "strengths": ["Empathy", "Devotion", "Creativity"],
-    "weaknesses": ["Escapism", "Confusion", "Difficulty setting boundaries"]
+    "weaknesses": ["Escapism", "Confusion", "Difficulty setting boundaries"],
+    "bodyParts": ["Feet", "Toes", "Lymphatic system"],
+    "purusharthaNote": "Moksha through surrender and devotion — spiritual, compassionate, imaginative, and idealistic; drawn toward meditation, devotion, charity, and service; sees unity behind diversity. Spiritual lesson: complete surrender to the Divine and transcendence of ego. Escapism, confusion, or lack of practical boundaries if afflicted."
   }
 ]

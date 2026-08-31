@@ -491,7 +491,13 @@ window.APP_DATA = {
         "Anger",
         "Impatience",
         "Impulsiveness"
-      ]
+      ],
+      "bodyParts": [
+        "Head",
+        "Brain",
+        "Face"
+      ],
+      "purusharthaNote": "Dharma through action — takes initiative and protects others; courageous, pioneering, and willing to fight for justice. Can become impatient or impulsive if afflicted."
     },
     {
       "id": "taurus",
@@ -521,7 +527,15 @@ window.APP_DATA = {
         "Stubbornness",
         "Possessiveness",
         "Resistance to change"
-      ]
+      ],
+      "bodyParts": [
+        "Face",
+        "Mouth",
+        "Throat",
+        "Neck",
+        "Vocal cords"
+      ],
+      "purusharthaNote": "Artha through accumulation and preservation — values wealth, comfort, and stability; patient and dependable; good with finances, banking, agriculture, food, music, or luxury goods. Can become overly attached to possessions if afflicted."
     },
     {
       "id": "gemini",
@@ -551,7 +565,15 @@ window.APP_DATA = {
         "Restlessness",
         "Indecision",
         "Inconsistency"
-      ]
+      ],
+      "bodyParts": [
+        "Shoulders",
+        "Arms",
+        "Hands",
+        "Lungs",
+        "Nervous system"
+      ],
+      "purusharthaNote": "Kāma through knowledge and communication — curious and versatile; enjoys learning, writing, teaching, and conversation; skilled at networking and connecting people. Can become restless or scattered if afflicted."
     },
     {
       "id": "cancer",
@@ -580,7 +602,14 @@ window.APP_DATA = {
         "Mood swings",
         "Emotional dependence",
         "Oversensitivity"
-      ]
+      ],
+      "bodyParts": [
+        "Chest",
+        "Breasts",
+        "Lungs",
+        "Stomach"
+      ],
+      "purusharthaNote": "Moksha through nurturing and emotional growth — caring, protective, and highly intuitive; seeks emotional security. Spiritual lesson: transforming emotional attachment into unconditional love. Moodiness or emotional dependency if afflicted."
     },
     {
       "id": "leo",
@@ -609,7 +638,13 @@ window.APP_DATA = {
         "Pride",
         "Ego",
         "Dominance"
-      ]
+      ],
+      "bodyParts": [
+        "Heart",
+        "Upper back",
+        "Spine"
+      ],
+      "purusharthaNote": "Dharma through leadership and authority — protects society and upholds order; noble, generous, and dignified. Can become proud or authoritarian if afflicted."
     },
     {
       "id": "virgo",
@@ -638,7 +673,14 @@ window.APP_DATA = {
         "Perfectionism",
         "Worry",
         "Overcritical nature"
-      ]
+      ],
+      "bodyParts": [
+        "Abdomen",
+        "Intestines",
+        "Pancreas",
+        "Digestive system"
+      ],
+      "purusharthaNote": "Artha through skill and service — analytical and detail-oriented; excels in planning, accounting, medicine, research, engineering, and administration; gains through expertise and precision. Can become overly critical or perfectionistic if afflicted."
     },
     {
       "id": "libra",
@@ -667,7 +709,14 @@ window.APP_DATA = {
         "Indecisiveness",
         "Dependence on approval",
         "Avoidance of conflict"
-      ]
+      ],
+      "bodyParts": [
+        "Kidneys",
+        "Lower back",
+        "Lumbar region",
+        "Skin balance"
+      ],
+      "purusharthaNote": "Kāma through relationships and harmony — diplomatic and balanced; values fairness, beauty, and partnership; strong sense of aesthetics; good at negotiation and mediation. Can become indecisive or overly dependent on others if afflicted."
     },
     {
       "id": "scorpio",
@@ -696,7 +745,14 @@ window.APP_DATA = {
         "Jealousy",
         "Suspicion",
         "Extremes of emotion"
-      ]
+      ],
+      "bodyParts": [
+        "Reproductive organs",
+        "Urinary tract",
+        "Colon",
+        "Rectum"
+      ],
+      "purusharthaNote": "Moksha through transformation — intense, determined, investigative, and perceptive; interested in hidden knowledge, psychology, or mysticism; strong capacity for regeneration. Spiritual lesson: transforming fear, ego, and attachment into wisdom. Jealousy, secrecy, or obsession if afflicted."
     },
     {
       "id": "sagittarius",
@@ -725,7 +781,13 @@ window.APP_DATA = {
         "Bluntness",
         "Overconfidence",
         "Dogmatism"
-      ]
+      ],
+      "bodyParts": [
+        "Hips",
+        "Thighs",
+        "Sciatic nerves"
+      ],
+      "purusharthaNote": "Dharma through wisdom and teaching — seeks truth, philosophy, and spiritual knowledge; loves learning, teaching, and guiding others. Can become dogmatic or overly idealistic if afflicted."
     },
     {
       "id": "capricorn",
@@ -754,7 +816,13 @@ window.APP_DATA = {
         "Pessimism",
         "Rigidity",
         "Work-life imbalance"
-      ]
+      ],
+      "bodyParts": [
+        "Knees",
+        "Joints",
+        "Skeletal structure"
+      ],
+      "purusharthaNote": "Artha through discipline and achievement — ambitious and responsible; excellent organizational and managerial ability; works patiently toward long-term goals; often succeeds in government, business, engineering, or executive roles. Can become overly work-focused or pessimistic if afflicted."
     },
     {
       "id": "aquarius",
@@ -783,7 +851,13 @@ window.APP_DATA = {
         "Emotional detachment",
         "Unpredictability",
         "Stubborn ideals"
-      ]
+      ],
+      "bodyParts": [
+        "Calves",
+        "Ankles",
+        "Circulation"
+      ],
+      "purusharthaNote": "Kāma through ideals and society — humanitarian and progressive; interested in groups, organizations, and social causes; independent thinker with broad vision; enjoys friendships and intellectual communities. Can become detached or overly unconventional if afflicted."
     },
     {
       "id": "pisces",
@@ -812,7 +886,13 @@ window.APP_DATA = {
         "Escapism",
         "Confusion",
         "Difficulty setting boundaries"
-      ]
+      ],
+      "bodyParts": [
+        "Feet",
+        "Toes",
+        "Lymphatic system"
+      ],
+      "purusharthaNote": "Moksha through surrender and devotion — spiritual, compassionate, imaginative, and idealistic; drawn toward meditation, devotion, charity, and service; sees unity behind diversity. Spiritual lesson: complete surrender to the Divine and transcendence of ego. Escapism, confusion, or lack of practical boundaries if afflicted."
     }
   ],
   "houses": [
@@ -1436,6 +1516,108 @@ window.APP_DATA = {
       ]
     },
     {
+      "id": "retrograde-planets",
+      "title": "Retrograde Planets (Vakri Grahas)",
+      "category": "planets",
+      "intro": "In Vedic astrology, a retrograde planet (Vakri Graha) does not necessarily become weak. Many classical texts state that a retrograde planet becomes strong in producing its results — but those results can manifest in unusual, delayed, internalized, or repetitive ways. The exact outcome depends on the planet, house, sign, dignity, aspects, conjunctions, and the operating dasha.",
+      "blocks": [
+        {
+          "type": "list",
+          "title": "Main principles",
+          "items": [
+            "A retrograde planet gains Chesta Bala (motional strength), making it capable of giving powerful results during its dasha or antardasha. Strength does not automatically mean favorable results — a strong benefic gives strong benefic effects, a strong malefic strong malefic ones.",
+            "Results are often delayed: delayed achievements, repeated efforts, revisiting the same issues, success after persistence. Retrograde Jupiter may delay higher education or children but eventually grant good results; retrograde Saturn may delay career or marriage but reward sustained effort.",
+            "Results become more internal — the planet's significations are experienced psychologically before manifesting externally. Retrograde Mercury: deep thinking, revising ideas, analytical ability. Retrograde Venus: reconsideration of relationships or values. Retrograde Mars: energy directed inward before being expressed.",
+            "The house occupied becomes important — a retrograde planet gives the results of the house it occupies, the houses it owns, and the planets influencing it.",
+            "During its dasha, a retrograde planet usually gives its strongest karmic results — unfinished business from the past, and events requiring correction or completion.",
+            "A retrograde planet never loses its natural significations — retrograde Jupiter still signifies wisdom, children, wealth, and dharma; retrograde Venus still signifies spouse, comforts, arts, and relationships. The manner of delivering these results is what changes."
+          ],
+          "text": "Some astrologers say a retrograde planet also gives the results of the previous sign. However, classical texts such as the Bṛhat Parāśara Horā Śāstra do not explicitly state this — most traditional astrologers judge the planet in the sign where it is actually placed."
+        },
+        {
+          "type": "table",
+          "title": "Retrograde compared with exalted, debilitated, and combust",
+          "headers": [
+            "Condition",
+            "Strength",
+            "Ability to Give Results",
+            "General Nature"
+          ],
+          "rows": [
+            [
+              "Exalted (Uccha)",
+              "Very strong",
+              "Excellent",
+              "Produces its best qualities"
+            ],
+            [
+              "Debilitated (Nīcha)",
+              "Weak",
+              "Reduced unless cancellation occurs",
+              "Struggles to express its significations"
+            ],
+            [
+              "Combust (Asta)",
+              "Weakened by the Sun",
+              "Results become obstructed or hidden",
+              "Planet loses independence"
+            ],
+            [
+              "Retrograde (Vakra)",
+              "Gains Chesta Bala (motional strength)",
+              "Powerful, often delayed or unusual",
+              "Strong expression with karmic complexity"
+            ]
+          ]
+        },
+        {
+          "type": "list",
+          "title": "Relative strength (traditional view)",
+          "items": [
+            "Exalted planet — strongest overall",
+            "Retrograde planet — very strong in motion (high Chesta Bala)",
+            "Planet in own sign or Moolatrikona",
+            "Friendly-sign planet",
+            "Neutral-sign planet",
+            "Enemy-sign planet",
+            "Debilitated planet"
+          ],
+          "text": "Combustion is evaluated separately because it depends on proximity to the Sun rather than sign placement."
+        },
+        {
+          "type": "text",
+          "title": "Important combinations",
+          "text": "Retrograde + exalted can indicate a highly powerful planet with strong Chesta Bala and excellent dignity, producing significant results through an unconventional path. Retrograde + debilitated is more debated: Parāśara does not explicitly state that retrogression cancels debilitation — the planet has strength to act (Chesta Bala) yet still expresses the limitations of debilitation; the final judgment depends on Neecha Bhanga, aspects, conjunctions, house placement, and Shadbala. Combust + retrograde: combustion reduces independent expression while retrogression increases motional strength — astrologers weigh both together rather than assuming one overrides the other."
+        },
+        {
+          "type": "text",
+          "title": "Example: retrograde Venus for a Leo ascendant",
+          "text": "Suppose Venus is retrograde in the 7th house in Aquarius for a Leo ascendant. Since Venus rules the 3rd and 10th houses, its dasha may strongly activate marriage and partnerships (7th house), profession (10th house), and communication, courage, skills, and younger siblings (3rd house). The native may experience a delayed or unconventional marriage, reconsideration of relationships, career changes before settling, and eventual professional success if Venus is otherwise strong. The exact outcome depends on aspects from planets such as Saturn, Jupiter, Mars, or Rahu, and on Venus's dignity in the birth chart and divisional charts."
+        },
+        {
+          "type": "steps",
+          "title": "How Parāśara judges any planet (retrograde, combust, debilitated, or exalted)",
+          "items": [
+            "Determine the planet's functional nature — whether it is functionally benefic or malefic for the ascendant. Parāśara gives house lordship importance before planetary condition. For Leo ascendant: Mars (4th and 9th lord) is a Yogakāraka, Venus (3rd and 10th lord) is generally a functional malefic, Jupiter (5th and 8th lord) is primarily benefic because of the trinal lordship.",
+            "Judge sign dignity — in decreasing order: exaltation (Uccha), Moolatrikona, own sign, great friend, friend, neutral, enemy, great enemy, debilitation (Nīcha). Jupiter in Cancer expresses wisdom, dharma, children, and wealth with ease; Jupiter in Capricorn struggles to express the same qualities.",
+            "Measure planetary strength with Shadbala, the sixfold strength: Sthāna Bala (positional), Dig Bala (directional), Kāla Bala (temporal), Chesta Bala (motional), Naisargika Bala (natural), Drik Bala (aspectual). A retrograde planet becomes important here because it gains Chesta Bala — retrograde is not automatically benefic; it is increased ability to act.",
+            "Examine combustion — combustion reduces the planet's ability to express itself independently because the Sun's brilliance overwhelms it. It is a reduction of strength, not total destruction. An exalted combust Mercury may still outperform a debilitated non-combust Mercury because other strengths compensate.",
+            "Examine retrogression — judged independently of sign dignity. It often gives delayed results, repeated experiences, unusual events, and strong manifestation during its dasha. Parāśara never says retrograde automatically means exalted, debilitated, benefic, or malefic.",
+            "Judge aspects — is Jupiter aspecting the planet, is Saturn afflicting it, is Mars influencing it, is Rahu or Ketu involved? A debilitated planet receiving Jupiter's aspect may perform much better than an unafflicted debilitated planet.",
+            "Judge house placement — exalted Saturn in the 6th can defeat enemies and give success through service; exalted Saturn in the 8th may still indicate significant transformative experiences because the house itself is challenging.",
+            "Judge house ownership — the houses ruled by the planet are activated during its dasha. Even an exalted planet may produce mixed results because of its functional role for the ascendant.",
+            "Examine vargas — especially Navāṁśa (D9), Daśāṁśa (D10), and Saptāṁśa (D7). A planet debilitated in the birth chart but exalted in Navāṁśa is generally judged more favorably than one debilitated in both.",
+            "Judge the dasha — planets principally deliver their promised results during their own Mahādasha, Antardasha, and supportive transits. No matter how strong a planet is, its full effects are generally experienced when its period operates."
+          ]
+        },
+        {
+          "type": "text",
+          "title": "The key principle",
+          "text": "Parāśara's method is synthetic rather than isolated — a planet is never judged by one factor alone. The astrologer evaluates functional beneficence or maleficence, sign dignity, Shadbala (including Chesta Bala for retrograde planets), combustion, aspects and conjunctions, house placement, house lordship, divisional chart strength, and dasha and transit. This is why two planets with the same condition — for example, both retrograde or both exalted — can produce very different outcomes depending on the rest of the horoscope."
+        }
+      ]
+    },
+    {
       "id": "sign-classifications",
       "title": "Classical Sign Classifications",
       "category": "signs",
@@ -1529,6 +1711,538 @@ window.APP_DATA = {
         {
           "type": "text",
           "text": "This layered approach provides a much richer understanding than looking at the sign alone and is the method traditionally used in both Parāśara and Jaimini astrology."
+        }
+      ]
+    },
+    {
+      "id": "rasi-tattvas",
+      "title": "Rāśi Tattvas — The Four Elements",
+      "category": "signs",
+      "intro": "In Vedic astrology, the 12 zodiac signs are classified according to the four Mahābhūtas (elements or Tattvas). The elemental groups describe how a person naturally expresses themselves, while the Purusharthas (Dharma, Artha, Kāma, Moksha) describe why they are motivated. These groups are fundamental in both Parāśara and Jaimini astrology.",
+      "blocks": [
+        {
+          "type": "table",
+          "title": "The four Tattvas at a glance",
+          "headers": [
+            "Element (Tattva)",
+            "Signs (Rāśis)",
+            "Core Nature"
+          ],
+          "rows": [
+            [
+              "Agni (Fire)",
+              "Aries, Leo, Sagittarius",
+              "Energy, inspiration, action"
+            ],
+            [
+              "Bhūmi/Prithvi (Earth)",
+              "Taurus, Virgo, Capricorn",
+              "Stability, practicality, productivity"
+            ],
+            [
+              "Vāyu (Air)",
+              "Gemini, Libra, Aquarius",
+              "Thought, communication, relationships"
+            ],
+            [
+              "Jala (Water)",
+              "Cancer, Scorpio, Pisces",
+              "Emotion, intuition, transformation"
+            ]
+          ]
+        },
+        {
+          "type": "list",
+          "title": "1. Agni (Fire) Tattva — Aries, Leo, Sagittarius",
+          "items": [
+            "Life force",
+            "Courage",
+            "Enthusiasm",
+            "Leadership",
+            "Inspiration",
+            "Initiative"
+          ],
+          "text": "These natives want to act first and create change."
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Fire (Agni)",
+            "Qualities"
+          ],
+          "rows": [
+            [
+              "Characteristics",
+              "Dynamic, energetic, independent, ambitious, optimistic, confident, inspirational, competitive"
+            ],
+            [
+              "Strengths",
+              "Leadership, courage, vision, quick decisions, motivation, ability to inspire others"
+            ],
+            [
+              "Weaknesses (when afflicted)",
+              "Anger, ego, impatience, impulsiveness, domineering behavior"
+            ],
+            [
+              "Suitable fields",
+              "Government, military, politics, entrepreneurship, sports, administration, teaching"
+            ]
+          ]
+        },
+        {
+          "type": "list",
+          "title": "2. Bhūmi (Earth) Tattva — Taurus, Virgo, Capricorn",
+          "items": [
+            "Stability",
+            "Practicality",
+            "Productivity",
+            "Endurance",
+            "Material development"
+          ],
+          "text": "These natives want to build."
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Earth (Bhūmi)",
+            "Qualities"
+          ],
+          "rows": [
+            [
+              "Characteristics",
+              "Patient, reliable, organized, practical, hardworking, disciplined, responsible"
+            ],
+            [
+              "Strengths",
+              "Financial management, persistence, technical ability, planning, resource management, consistency"
+            ],
+            [
+              "Weaknesses",
+              "Stubbornness, material attachment, resistance to change, excessive caution"
+            ],
+            [
+              "Suitable fields",
+              "Engineering, agriculture, finance, banking, construction, medicine, business, manufacturing"
+            ]
+          ]
+        },
+        {
+          "type": "list",
+          "title": "3. Vāyu (Air) Tattva — Gemini, Libra, Aquarius",
+          "items": [
+            "Intelligence",
+            "Communication",
+            "Ideas",
+            "Social interaction",
+            "Movement"
+          ],
+          "text": "These natives want to connect."
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Air (Vāyu)",
+            "Qualities"
+          ],
+          "rows": [
+            [
+              "Characteristics",
+              "Curious, intellectual, friendly, communicative, adaptable, diplomatic, innovative"
+            ],
+            [
+              "Strengths",
+              "Communication, negotiation, networking, learning, teaching, creativity"
+            ],
+            [
+              "Weaknesses",
+              "Restlessness, indecision, inconsistency, overthinking, superficiality"
+            ],
+            [
+              "Suitable fields",
+              "Journalism, law, teaching, media, marketing, information technology, consulting, public relations"
+            ]
+          ]
+        },
+        {
+          "type": "list",
+          "title": "4. Jala (Water) Tattva — Cancer, Scorpio, Pisces",
+          "items": [
+            "Emotion",
+            "Intuition",
+            "Compassion",
+            "Healing",
+            "Spirituality"
+          ],
+          "text": "These natives want to feel and understand."
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Water (Jala)",
+            "Qualities"
+          ],
+          "rows": [
+            [
+              "Characteristics",
+              "Sensitive, compassionate, intuitive, protective, imaginative, spiritual, emotionally perceptive"
+            ],
+            [
+              "Strengths",
+              "Healing ability, empathy, insight, research, devotion, adaptability"
+            ],
+            [
+              "Weaknesses",
+              "Moodiness, emotional attachment, fearfulness, secrecy, escapism"
+            ],
+            [
+              "Suitable fields",
+              "Psychology, counselling, medicine, spiritual teaching, healing professions, research, arts, social service"
+            ]
+          ]
+        },
+        {
+          "type": "table",
+          "title": "Comparison of the four elements",
+          "headers": [
+            "Element",
+            "Focus",
+            "Motto",
+            "Natural Strength"
+          ],
+          "rows": [
+            [
+              "Agni (Fire)",
+              "Action",
+              "I will do.",
+              "Leadership, courage"
+            ],
+            [
+              "Bhūmi (Earth)",
+              "Building",
+              "I will create.",
+              "Stability, productivity"
+            ],
+            [
+              "Vāyu (Air)",
+              "Thinking",
+              "I will understand.",
+              "Communication, ideas"
+            ],
+            [
+              "Jala (Water)",
+              "Feeling",
+              "I will experience.",
+              "Intuition, compassion"
+            ]
+          ]
+        },
+        {
+          "type": "table",
+          "title": "Relation to the Purusharthas",
+          "headers": [
+            "Element",
+            "Signs",
+            "Corresponding Purushartha"
+          ],
+          "rows": [
+            [
+              "Fire (Agni)",
+              "Aries, Leo, Sagittarius",
+              "Dharma"
+            ],
+            [
+              "Earth (Bhūmi)",
+              "Taurus, Virgo, Capricorn",
+              "Artha"
+            ],
+            [
+              "Air (Vāyu)",
+              "Gemini, Libra, Aquarius",
+              "Kāma"
+            ],
+            [
+              "Water (Jala)",
+              "Cancer, Scorpio, Pisces",
+              "Moksha"
+            ]
+          ]
+        },
+        {
+          "type": "text",
+          "title": "Element and Purushartha are conceptually distinct",
+          "text": "The element (Tattva) describes the mode of expression — how energy operates. The Purushartha describes the aim or purpose — what motivates the person. Aries is both a Fire sign and a Dharma sign: it expresses itself energetically (Fire) in pursuit of duty and purpose (Dharma). Pisces is both a Water sign and a Moksha sign: it expresses itself through empathy and intuition (Water) in pursuit of spiritual liberation (Moksha). In Jaimini and Parāśara astrology, both classifications are used together with planetary dignity, house placement, aspects, and yogas to build a complete interpretation."
+        }
+      ]
+    },
+    {
+      "id": "purushartha-rasis",
+      "title": "Purusharthas of the Signs (Dharma, Artha, Kāma, Moksha)",
+      "category": "signs",
+      "intro": "The twelve signs are grouped into the four Purusharthas — the four aims of human life. People with strong placements in a group (Ascendant, Moon, Atmakaraka, Karakamsha, or several planets there) tend to be motivated by that aim. Jaimini astrology gives this grouping special importance when judging the Atmakaraka, Karakamsha, and Chara Karakas.",
+      "blocks": [
+        {
+          "type": "table",
+          "title": "The four groups",
+          "headers": [
+            "Purushartha",
+            "Signs",
+            "Meaning"
+          ],
+          "rows": [
+            [
+              "Dharma",
+              "Aries, Leo, Sagittarius",
+              "Duty, righteousness, purpose"
+            ],
+            [
+              "Artha",
+              "Taurus, Virgo, Capricorn",
+              "Wealth, resources, security"
+            ],
+            [
+              "Kāma",
+              "Gemini, Libra, Aquarius",
+              "Desire, relationships, enjoyment"
+            ],
+            [
+              "Moksha",
+              "Cancer, Scorpio, Pisces",
+              "Liberation, inner growth"
+            ]
+          ]
+        },
+        {
+          "type": "list",
+          "title": "Dharma Rāśis — characteristics",
+          "items": [
+            "Strong sense of duty and responsibility",
+            "Leadership and the desire to guide others",
+            "Courage to uphold principles even in difficult situations",
+            "Interest in justice, law, ethics, or religion",
+            "Desire to leave a meaningful legacy",
+            "Independence and self-confidence",
+            "Spiritual inclination, especially when supported by benefic planets"
+          ],
+          "text": "These signs are ruled by the fire element and naturally represent righteousness, duty, ethics, higher purpose, and spiritual evolution."
+        },
+        {
+          "type": "list",
+          "title": "The individual Dharma signs",
+          "items": [
+            "Aries (Mesha) — Dharma through action: takes initiative and protects others; courageous, pioneering, and willing to fight for justice; impatient or impulsive if afflicted.",
+            "Leo (Simha) — Dharma through leadership and authority: protects society and upholds order; noble, generous, and dignified; proud or authoritarian if afflicted.",
+            "Sagittarius (Dhanu) — Dharma through wisdom and teaching: seeks truth, philosophy, and spiritual knowledge; loves learning, teaching, and guiding others; dogmatic or overly idealistic if afflicted."
+          ],
+          "text": "In Jaimini: if the Atmakaraka occupies a Dharma sign, the soul's evolution is often directed toward righteousness, leadership, teaching, or spiritual pursuits. If the Karakamsha Lagna falls in a Dharma sign, the native often has a strong moral compass and may be drawn to religious, philosophical, educational, judicial, or administrative roles. The 1st, 5th, and 9th houses form the Dharma Trikona — when these houses and their lords are strong, a person often has high ethical standards, respect for teachers, good judgment, and fortune arising from righteous actions."
+        },
+        {
+          "type": "list",
+          "title": "Artha Rāśis — characteristics",
+          "items": [
+            "Practical and realistic",
+            "Focused on financial security and long-term stability",
+            "Hardworking and disciplined",
+            "Skilled at managing money and resources",
+            "Patient and persistent",
+            "Organized and methodical",
+            "Value tangible results over abstract ideals",
+            "Prefer steady progress rather than taking unnecessary risks"
+          ],
+          "text": "Their motivation is often to build a secure life, support family, and create lasting value."
+        },
+        {
+          "type": "list",
+          "title": "The individual Artha signs",
+          "items": [
+            "Taurus (Vrishabha) — Artha through accumulation and preservation: values wealth, comfort, and stability; patient and dependable; good with finances, banking, agriculture, food, music, or luxury goods; overly attached to possessions if afflicted.",
+            "Virgo (Kanya) — Artha through skill and service: analytical and detail-oriented; excels in planning, accounting, medicine, research, engineering, and administration; gains through expertise and precision; overly critical or perfectionistic if afflicted.",
+            "Capricorn (Makara) — Artha through discipline and achievement: ambitious and responsible; excellent organizational and managerial ability; often succeeds in government, business, engineering, or executive roles; overly work-focused or pessimistic if afflicted."
+          ],
+          "text": "In Jaimini: when the Atmakaraka or Karakamsha Lagna is in an Artha sign, the soul's growth often occurs through work, responsibility, and resource management — success comes from discipline, competence, and practical effort. The 2nd, 6th, and 10th houses form the Artha Trikona: strong Artha houses and their lords generally indicate financial stability, professional success, good work ethic, and the capacity to build lasting achievements."
+        },
+        {
+          "type": "list",
+          "title": "Kāma Rāśis — characteristics",
+          "items": [
+            "Strong desire to connect with people",
+            "Excellent communication and networking skills",
+            "Social, friendly, and cooperative",
+            "Interested in partnerships and teamwork",
+            "Creative and intellectually curious",
+            "Value freedom of expression and exchange of ideas",
+            "Seek emotional and intellectual satisfaction through relationships",
+            "Adaptable and open to different perspectives"
+          ],
+          "text": "Kāma does not refer only to romance or sensual pleasure — it encompasses all legitimate desires, including friendship, learning, artistic expression, recognition, collaboration, and meaningful human connection."
+        },
+        {
+          "type": "list",
+          "title": "The individual Kāma signs",
+          "items": [
+            "Gemini (Mithuna) — Kāma through knowledge and communication: curious and versatile; enjoys learning, writing, teaching, and conversation; skilled in networking and connecting people; restless or scattered if afflicted.",
+            "Libra (Tula) — Kāma through relationships and harmony: diplomatic and balanced; values fairness, beauty, and partnership; good at negotiation and mediation; indecisive or overly dependent on others if afflicted.",
+            "Aquarius (Kumbha) — Kāma through ideals and society: humanitarian and progressive; interested in groups, organizations, and social causes; independent thinker with broad vision; detached or unconventional if afflicted."
+          ],
+          "text": "In Jaimini: if the Atmakaraka occupies a Kāma sign, the soul often develops through building relationships, communication, collaboration, diplomacy, and artistic or intellectual expression. A Karakamsha Lagna in a Kāma sign may draw the native to law, teaching, writing, media, public relations, counseling, arts, or social work. The 3rd, 7th, and 11th houses form the Kāma Trikona — strong Kāma houses indicate effective communication, successful partnerships, large networks, and achievement of ambitions."
+        },
+        {
+          "type": "list",
+          "title": "Moksha Rāśis — characteristics",
+          "items": [
+            "Deep emotional sensitivity",
+            "Strong intuition and inner perception",
+            "Interest in spirituality, meditation, or philosophy",
+            "Desire to understand life's deeper meaning",
+            "Compassion and empathy",
+            "Capacity for sacrifice and selfless service",
+            "Attraction to solitude or introspection",
+            "Ability to undergo profound personal transformation",
+            "Less attachment to material success than Artha-dominant individuals"
+          ],
+          "text": "Their life often involves learning through inner experiences rather than external achievements."
+        },
+        {
+          "type": "list",
+          "title": "The individual Moksha signs",
+          "items": [
+            "Cancer (Karka) — Moksha through nurturing and emotional growth: caring, protective, highly intuitive; spiritual lesson: transforming emotional attachment into unconditional love; moodiness or emotional dependency if afflicted.",
+            "Scorpio (Vrischika) — Moksha through transformation: intense, investigative, and perceptive; interested in hidden knowledge, tantra, psychology, or mysticism; spiritual lesson: transforming fear, ego, and attachment into wisdom; jealousy, secrecy, or obsession if afflicted.",
+            "Pisces (Meena) — Moksha through surrender and devotion: spiritual, compassionate, imaginative; drawn toward meditation, devotion, charity, and service; spiritual lesson: complete surrender to the Divine and transcendence of ego; escapism or confusion if afflicted."
+          ],
+          "text": "In Jaimini: an Atmakaraka in a Moksha sign often centers the soul's evolution on spiritual development, renunciation of ego, compassion, and self-knowledge. A Karakamsha in a Moksha sign may indicate interest in Vedanta, Yoga, meditation, mantra, or sacred scriptures, and careers involving healing, counseling, education, or charitable service. The 4th, 8th, and 12th houses form the Moksha Trikona — strong Moksha houses indicate spiritual inclination, deep intuition, and the ability to detach from material concerns when appropriate."
+        },
+        {
+          "type": "table",
+          "title": "Comparison of the four Purushartha signs",
+          "headers": [
+            "Purushartha",
+            "Signs",
+            "Primary Motivation"
+          ],
+          "rows": [
+            [
+              "Dharma",
+              "Aries, Leo, Sagittarius",
+              "Duty, purpose, righteous action"
+            ],
+            [
+              "Artha",
+              "Taurus, Virgo, Capricorn",
+              "Security, wealth, achievement"
+            ],
+            [
+              "Kāma",
+              "Gemini, Libra, Aquarius",
+              "Relationships, desires, fulfillment"
+            ],
+            [
+              "Moksha",
+              "Cancer, Scorpio, Pisces",
+              "Inner freedom, wisdom, liberation"
+            ]
+          ]
+        },
+        {
+          "type": "text",
+          "title": "Balance in a horoscope",
+          "text": "Neither Parāśara nor Jaimini teaches that one Purushartha is inherently better than the others. A well-rounded life ideally integrates all four: Dharma guides your actions, Artha provides the resources to live, Kāma brings fulfillment through relationships and aspirations, and Moksha offers inner peace and ultimate spiritual freedom. Artha is not inferior to Dharma — ideally, wealth and resources are pursued in accordance with righteousness; when Dharma supports Artha, material success tends to be more stable, ethical, and beneficial. From a Jaimini perspective, examining how the Atmakaraka, Karakamsha Lagna, and Chara Karakas occupy or aspect these Purushartha signs reveals which aim is emphasized in the soul's journey during this lifetime."
+        }
+      ]
+    },
+    {
+      "id": "rasi-body-parts",
+      "title": "Rāśis and Body Parts — the Kalapurusha",
+      "category": "signs",
+      "intro": "In Vedic astrology, the 12 zodiac signs (Rāśis) correspond to different parts of the Kalapurusha (Cosmic Man). This concept is fundamental in Parāśara, Jaimini, and classical medical astrology (Āyur Jyotiṣa). The sign occupied by a planet, or the sign afflicted, can indicate susceptibility in the corresponding body part.",
+      "blocks": [
+        {
+          "type": "table",
+          "title": "The Kalapurusha mapping",
+          "headers": [
+            "Rāśi",
+            "Sanskrit Name",
+            "Body Part Represented"
+          ],
+          "rows": [
+            [
+              "Aries",
+              "Mesha",
+              "Head, brain, face"
+            ],
+            [
+              "Taurus",
+              "Vrishabha",
+              "Face, mouth, throat, neck, vocal cords"
+            ],
+            [
+              "Gemini",
+              "Mithuna",
+              "Shoulders, arms, hands, lungs, nervous system"
+            ],
+            [
+              "Cancer",
+              "Karka",
+              "Chest, breasts, lungs, stomach"
+            ],
+            [
+              "Leo",
+              "Simha",
+              "Heart, upper back, spine"
+            ],
+            [
+              "Virgo",
+              "Kanya",
+              "Abdomen, intestines, pancreas, digestive system"
+            ],
+            [
+              "Libra",
+              "Tula",
+              "Kidneys, lower back, lumbar region, skin balance"
+            ],
+            [
+              "Scorpio",
+              "Vrischika",
+              "Reproductive organs, urinary tract, colon, rectum"
+            ],
+            [
+              "Sagittarius",
+              "Dhanu",
+              "Hips, thighs, sciatic nerves"
+            ],
+            [
+              "Capricorn",
+              "Makara",
+              "Knees, joints, skeletal structure"
+            ],
+            [
+              "Aquarius",
+              "Kumbha",
+              "Calves, ankles, circulation"
+            ],
+            [
+              "Pisces",
+              "Meena",
+              "Feet, toes, lymphatic system"
+            ]
+          ]
+        },
+        {
+          "type": "list",
+          "title": "Significance in medical astrology",
+          "items": [
+            "The Ascendant (Lagna) and its lord",
+            "The 6th house (disease)",
+            "The 8th house (chronic illness and longevity)",
+            "The 12th house (hospitalization, confinement, losses)",
+            "The condition of the sign corresponding to the affected body part",
+            "The natural significator (karaka) of the organ involved"
+          ],
+          "text": "For example: affliction to Aries may indicate headaches or head injuries; affliction to Leo may suggest issues related to the heart or spine; affliction to Virgo may point to digestive or intestinal disorders; affliction to Scorpio may involve the reproductive or urinary system; affliction to Pisces may be associated with foot problems or lymphatic issues."
+        },
+        {
+          "type": "text",
+          "title": "The Kalapurusha principle",
+          "text": "The body mapping is based on the Kalapurusha, the cosmic archetype in which Aries begins at the head, the signs descend sequentially through the body, and Pisces ends at the feet. This head-to-feet sequence is used extensively in natal chart interpretation, medical astrology, and in timing health-related events when combined with planetary periods (dashas), transits, and divisional charts such as the Drekkana (D3) and Shashtiamsha (D60)."
         }
       ]
     },
@@ -1659,6 +2373,93 @@ window.APP_DATA = {
       ]
     },
     {
+      "id": "viparita-raja-yoga",
+      "title": "Viparīta Rāja Yoga",
+      "category": "houses",
+      "intro": "Viparīta Rāja Yoga (विपरीत राज योग) is one of the most fascinating yogas in Parāśara Vedic astrology. Viparīta means reverse, opposite, or unexpected, and Rāja Yoga means a yoga that confers success, authority, or prosperity. The underlying principle: the lords of difficult houses (Dusthānas) produce favorable results when they are placed in certain difficult houses — a negative cancels another negative, leading to unexpected gains after adversity.",
+      "blocks": [
+        {
+          "type": "list",
+          "title": "The three Dusthānas (Trika houses)",
+          "items": [
+            "6th house — enemies, debts, disease",
+            "8th house — obstacles, sudden changes, longevity",
+            "12th house — losses, expenses, isolation"
+          ],
+          "text": "A Viparīta Rāja Yoga forms when the 6th lord is placed in the 6th, 8th, or 12th house, or the 8th lord is placed in the 6th, 8th, or 12th house, or the 12th lord is placed in the 6th, 8th, or 12th house — especially when these lords occupy another Dusthāna rather than their own house."
+        },
+        {
+          "type": "list",
+          "title": "1. Harsha Yoga — the 6th lord occupies the 6th, 8th, or 12th house",
+          "items": [
+            "Victory over enemies",
+            "Good health",
+            "Success in litigation",
+            "Strong ability to overcome competition",
+            "Government recognition",
+            "Courage under adversity"
+          ]
+        },
+        {
+          "type": "list",
+          "title": "2. Sarala Yoga — the 8th lord occupies the 6th, 8th, or 12th house",
+          "items": [
+            "Long life",
+            "Fearlessness",
+            "Success after crises",
+            "Research ability",
+            "Interest in occult sciences",
+            "Capacity to recover from setbacks"
+          ]
+        },
+        {
+          "type": "list",
+          "title": "3. Vimala Yoga — the 12th lord occupies the 6th, 8th, or 12th house",
+          "items": [
+            "Control over expenses",
+            "Independent nature",
+            "Spiritual inclination",
+            "Wealth through foreign lands",
+            "Simplicity",
+            "Good reputation"
+          ]
+        },
+        {
+          "type": "text",
+          "title": "Why does it work?",
+          "text": "Suppose the 6th house represents enemies and the 8th house represents obstacles. If the lord of enemies (6th lord) goes into the house of obstacles (8th), the difficulties represented by one Dusthāna can undermine those of another, reducing their ability to cause harm. Similarly, the 8th lord in the 12th can indicate the loss of obstacles, and the 12th lord in the 6th can indicate the loss of losses. This is the symbolic reasoning behind Viparīta Rāja Yoga."
+        },
+        {
+          "type": "text",
+          "title": "Example: Leo ascendant",
+          "text": "For Leo ascendant, the 6th house is Capricorn (lord Saturn), the 8th is Pisces (lord Jupiter), and the 12th is Cancer (lord Moon). Possible Viparīta Rāja Yogas include Saturn (6th lord) in the 8th or 12th, Jupiter (8th lord) in the 6th or 12th, and Moon (12th lord) in the 6th or 8th. If Jupiter as 8th lord occupies the 6th house, it forms Sarala Viparīta Rāja Yoga — possible results include recovery from major setbacks, victory after crises, success in research, ability to overcome hidden enemies, and unexpected gains following adversity. Note that for Leo ascendant Jupiter also rules the 5th house, making it a functional benefic in addition to being the 8th lord — because of this dual lordship, Jupiter's placement in the 6th or 12th may combine Viparīta Rāja Yoga (through its 8th-house ownership) with 5th-house results (intelligence, children, past merit, learning). The exact balance depends on the full horoscope."
+        },
+        {
+          "type": "list",
+          "title": "The yoga is stronger when",
+          "items": [
+            "The planet is unafflicted",
+            "It is not debilitated (unless debility is canceled)",
+            "It is not severely combust (where applicable)",
+            "It has good Shadbala",
+            "It is strong in the Navamsa (D9)",
+            "Its dasha operates"
+          ],
+          "text": "Not every Dusthāna lord in another Dusthāna automatically produces a powerful Viparīta Rāja Yoga. Astrologers also examine conjunctions with benefic or malefic planets, aspects, house ownership beyond the Dusthāna, functional benefic or malefic status for the ascendant, and overall chart strength. For example, if the 8th lord also owns a Trikona (as happens in some ascendants), its interpretation becomes more nuanced."
+        },
+        {
+          "type": "text",
+          "title": "When does it give results?",
+          "text": "Mostly during the Mahadasha of the yoga-forming planet, the Antardasha of the same planet, or strong transit activation. Many natives experience early struggles, unexpected breakthroughs later, success after failures, and a rise through difficult circumstances — this delayed rise is one of the hallmarks of Viparīta Rāja Yoga."
+        },
+        {
+          "type": "text",
+          "title": "Classical principle",
+          "text": "A succinct classical way to remember it: when the lords of the 6th, 8th, and 12th occupy the 6th, 8th, or 12th houses, adversity itself becomes the source of success. Such natives often experience significant challenges early in life but later gain recognition, resilience, or prosperity precisely because they have learned to overcome those challenges."
+        }
+      ]
+    },
+    {
       "id": "who-how-where",
       "title": "The Big Picture: Who, How, Where",
       "category": "general",
@@ -1680,6 +2481,79 @@ window.APP_DATA = {
         {
           "type": "text",
           "text": "The final interpretation, however, always depends on the complete chart, including planetary dignity, aspects, yogas, and dashas."
+        }
+      ]
+    },
+    {
+      "id": "method-of-delineation",
+      "title": "Method of Delineation — Judging a Planet in a Sign",
+      "category": "general",
+      "intro": "Different planets placed in different signs give different results — but a planet does not give results merely because it is in a sign. Its results are determined by several layers of interpretation that must be synthesized. This order of analysis is followed in both Parāśara and Jaimini traditions (with some differences).",
+      "blocks": [
+        {
+          "type": "steps",
+          "title": "The eleven layers",
+          "items": [
+            "Natural signification (Naisargika Karakatva) — what does the planet naturally signify? Sun: authority, father, soul, government. Moon: mind, mother, emotions. Mars: courage, land, siblings. Mercury: intelligence, speech, business. Jupiter: wisdom, children, wealth. Venus: marriage, comforts, arts. Saturn: work, longevity, discipline. These significations never change.",
+            "The nature of the sign — the environment in which the planet functions: element, mode, purushartha, gender, ruler, and natural temperament. Mars in Aries (fire, own sign) expresses courage naturally; Mars in Cancer (water, debilitated) has its direct style weakened by the emotional environment. The sign modifies how the planet expresses itself.",
+            "Relationship between the planet and the sign lord — is the sign owned by a friend, a neutral planet, or an enemy? Jupiter in Leo feels comfortable because the Sun and Jupiter are natural friends; Jupiter in Gemini becomes more analytical but less comfortable because Mercury is Jupiter's natural enemy.",
+            "Dignity of the planet — in decreasing order: exaltation, Moolatrikona, own sign, great friend's sign, friend's sign, neutral sign, enemy sign, great enemy's sign, debilitation. Dignity greatly affects a planet's ability to produce its significations.",
+            "House placement — the same planet in the same sign gives different results depending on the house. Mars in Capricorn: in the 1st house a courageous personality; in the 4th property, vehicles, engineering; in the 7th an assertive spouse or partnerships; in the 10th leadership and career success. The house tells where the results manifest.",
+            "Functional role from the Lagna — the same planet behaves differently depending on the ascendant because it rules different houses. For Aries Lagna, Saturn rules the 10th and 11th houses; for Libra Lagna, Saturn rules the 4th and 5th houses and becomes a powerful Yoga Karaka. The same Saturn produces very different results.",
+            "Aspects received — a planet is modified by aspects. Jupiter aspected by Venus receives benefic influence; aspected by Saturn, discipline and delay; aspected by Mars, energy and courage; aspected by Rahu, unconventional or amplified expression.",
+            "Conjunctions — planets sharing a sign influence one another. Sun + Jupiter: wisdom and leadership. Sun + Saturn: tension between authority and duty. Venus + Mercury: artistic intellect. Mars + Rahu: great courage or impulsiveness, depending on strength and context.",
+            "Strength (Bala) — including Shadbala, Digbala, Cheshtabala, Vargabala, Avasthas, combustion, and retrogression. A strong planet can produce its significations more fully than a weak one.",
+            "Divisional charts — always confirm results in the relevant varga: D9 (Navamsa) for overall strength, marriage, and dharma; D10 (Dashamsa) for profession; D7 (Saptamsa) for children; D12 (Dwadashamsa) for parents. A planet strong in the birth chart but weak in the relevant divisional chart may not deliver its full promise in that area.",
+            "Dasha and transit — even a strong placement gives its most noticeable results during its Mahadasha, its Antardasha, and significant transits activating it. Potential becomes experience only when activated by time."
+          ]
+        },
+        {
+          "type": "table",
+          "title": "Exaltation signs (Uccha) — the deepest dignity",
+          "headers": [
+            "Planet",
+            "Exalted in"
+          ],
+          "rows": [
+            [
+              "Sun",
+              "Aries"
+            ],
+            [
+              "Moon",
+              "Taurus"
+            ],
+            [
+              "Mars",
+              "Capricorn"
+            ],
+            [
+              "Mercury",
+              "Virgo"
+            ],
+            [
+              "Jupiter",
+              "Cancer"
+            ],
+            [
+              "Venus",
+              "Pisces"
+            ],
+            [
+              "Saturn",
+              "Libra"
+            ]
+          ]
+        },
+        {
+          "type": "text",
+          "title": "An example: Jupiter in Cancer",
+          "text": "Suppose Jupiter is placed in Cancer. Natural significator: wisdom, children, wealth, dharma. Sign: Cancer is nurturing, emotional, and ruled by the Moon. Relationship: the Moon is Jupiter's natural friend. Dignity: Jupiter is exalted in Cancer. House: if in the 9th house, it strongly supports dharma, higher education, and fortune; if in the 2nd house, it emphasizes wealth, speech, and family. House lordship: the houses Jupiter rules depend on the ascendant, altering its functional role. Aspects: benefic or malefic aspects modify the outcome. Strength: high Shadbala and a supportive Navamsa enhance results. Timing: these indications become prominent during Jupiter's dasha or relevant transits. Only after considering all these factors can an astrologer confidently judge the results."
+        },
+        {
+          "type": "text",
+          "title": "The three-step formula",
+          "text": "A simple way to analyze any planetary placement is: Result = Planet × Sign × House. Then refine it by considering planetary dignity, relationship with the sign lord, functional benefic or malefic status, aspects and conjunctions, planetary strength, divisional charts, and dasha and transit. This layered approach is the foundation of sound chart interpretation in both Parāśara and Jaimini astrology."
         }
       ]
     }
