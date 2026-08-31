@@ -61,7 +61,9 @@ a:hover { text-decoration: underline; }
 
 .search-wrap { flex: 1 1 220px; max-width: 420px; }
 
-#search {
+.filter-wrap { max-width: 420px; margin: 0 0 1.25rem; }
+
+#search, #concept-filter {
   width: 100%;
   padding: 0.5rem 0.9rem;
   border-radius: 999px;
@@ -71,8 +73,8 @@ a:hover { text-decoration: underline; }
   font-size: 0.95rem;
   outline: none;
 }
-#search:focus { border-color: var(--gold); }
-#search::placeholder { color: var(--text-dim); }
+#search:focus, #concept-filter:focus { border-color: var(--gold); }
+#search::placeholder, #concept-filter::placeholder { color: var(--text-dim); }
 
 .tabs {
   display: flex;
