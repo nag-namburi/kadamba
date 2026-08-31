@@ -1,6 +1,6 @@
 # Requirements — Kadamba
 
-> Status: **v1 built & deployed** — https://skipit.github.io/kadamba/
+> Status: **v1 built & deployed** — https://nag-namburi.github.io/kadamba/
 
 ## 1. Purpose
 
