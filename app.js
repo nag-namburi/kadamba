@@ -258,16 +258,23 @@
 
       '<dl class="fact-grid">' +
         '<div class="fact"><dt>Ruling planet</dt><dd>' + planetLink(s.ruler) + "</dd></div>" +
-        '<div class="fact"><dt>Element</dt><dd><a href="#/concepts/sign-classifications">' + esc(s.element) + "</a></dd></div>" +
+        '<div class="fact"><dt>Element</dt><dd><a href="#/concepts/rasi-tattvas">' + esc(s.element) + "</a></dd></div>" +
         '<div class="fact"><dt>Modality</dt><dd><a href="#/concepts/sign-classifications">' + esc(s.modality) + "</a></dd></div>" +
-        '<div class="fact"><dt>Purushartha</dt><dd><a href="#/concepts/sign-classifications">' + esc(s.purushartha) + "</a></dd></div>" +
+        '<div class="fact"><dt>Purushartha</dt><dd><a href="#/concepts/purushartha-rasis">' + esc(s.purushartha) + "</a></dd></div>" +
         '<div class="fact"><dt>Gender</dt><dd>' + esc(s.gender) + "</dd></div>" +
         '<div class="fact"><dt>Nature</dt><dd>' + esc(s.nature) + "</dd></div>" +
       "</dl>" +
 
+      (s.purusharthaNote ? '<p class="note">' + esc(s.purusharthaNote) + "</p>" : "") +
+
       '<div class="section"><h2>Characteristics</h2>' + chipList(s.characteristics) + "</div>" +
       '<div class="section"><h2>Strengths</h2>' + chipList(s.strengths) + "</div>" +
       '<div class="section"><h2>Weaknesses</h2>' + chipList(s.weaknesses) + "</div>" +
+      (s.bodyParts && s.bodyParts.length
+        ? '<div class="section"><h2>Body parts (Kalapurusha)</h2>' + chipList(s.bodyParts) +
+          '<p class="note">In the Kalapurusha (Cosmic Man), each sign maps to a part of the body from head to feet — ' +
+          'see <a href="#/concepts/rasi-body-parts">Rāśis and body parts</a>.</p></div>'
+        : "") +
       '<p class="note">See <a href="#/concepts/interpreting-a-rasi">How to interpret a Rāśi</a> for how these layers combine.</p>'
     );
   }
@@ -366,7 +373,7 @@
       index.push({
         type: "Signs", url: "#/signs/" + s.id, title: s.name,
         subtitle: s.sanskritName + " — ruled by " + s.ruler,
-        hay: [s.name, s.sanskritName, s.ruler, s.element, s.modality, s.purushartha, s.gender, s.nature].concat(s.characteristics, s.strengths, s.weaknesses).join(" ").toLowerCase()
+        hay: [s.name, s.sanskritName, s.ruler, s.element, s.modality, s.purushartha, s.gender, s.nature, s.purusharthaNote || ""].concat(s.characteristics, s.strengths, s.weaknesses, s.bodyParts || []).join(" ").toLowerCase()
       });
     });
     houses.forEach(function (h) {

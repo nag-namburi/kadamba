@@ -74,7 +74,7 @@ data.planets.forEach((p) =>
     p.professions[0],
   ]));
 data.signs.forEach((s) =>
-  check(`#/signs/${s.id}`, [s.name, s.sanskritName, s.ruler, s.element, s.characteristics[0], s.weaknesses[0]]));
+  check(`#/signs/${s.id}`, [s.name, s.sanskritName, s.ruler, s.element, s.characteristics[0], s.weaknesses[0], s.bodyParts[0]]));
 data.houses.forEach((h) =>
   check(`#/houses/${h.id}`, [h.name, h.sanskritName, h.represents[0], h.questionsItAnswers[0], h.naturalKarakas[0].split(" ")[0]]));
 data.concepts.forEach((c) => check(`#/concepts/${c.id}`, [c.title]));
@@ -93,6 +93,16 @@ check("#/planets/moon", ["Friends", "None"]);                    // Moon has no 
 check("#/planets/rahu", ["not part of the classical",
   'href="#/concepts/naisargika-maitri"']);                       // nodes noted as outside the table
 check("#/concepts/naisargika-maitri", ["Saturn (Śani)", "Pañcadhā Maitri", "Great Enemy"]);
+check("#/signs/aries", ['href="#/concepts/rasi-tattvas"',
+  'href="#/concepts/purushartha-rasis"', 'href="#/concepts/rasi-body-parts"',
+  "Dharma through action", "Head"]);                    // element/purushartha/body-part links + new fields
+check("#/signs/pisces", ["Moksha through surrender", "Lymphatic system"]);
+check("#/concepts/rasi-tattvas", ["Mahābhūtas", "I will do.", "Jala (Water)"]);
+check("#/concepts/purushartha-rasis", ["Karakamsha", "Dharma Trikona", "Moksha through transformation"]);
+check("#/concepts/rasi-body-parts", ["Kalapurusha", "sciatic nerves", "Drekkana"]);
+check("#/concepts/retrograde-planets", ["Chesta Bala", "Vakri", "Mahādasha"]);
+check("#/concepts/viparita-raja-yoga", ["Harsha Yoga", "Sarala", "Vimala", "Dusthāna"]);
+check("#/concepts/method-of-delineation", ["Result = Planet × Sign × House", "Naisargika Karakatva"]);
 
 // 404s
 check("#/bogus", ["Not found"]);
