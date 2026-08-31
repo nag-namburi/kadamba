@@ -65,6 +65,8 @@ check("#/planets", data.planets.map((p) => p.name));
 check("#/signs", ["Mesha", "Meena", "Vrischika"]);
 check("#/houses", ["Tanu Bhava", "Vyaya Bhava"]);
 check("#/concepts", data.concepts.map((c) => c.title));
+check("#/concepts", ['id="concept-filter"', 'id="concept-grid"', "Filter concepts",
+  'id="concept-filter-empty"']);                                     // concepts page has its own filter box
 
 // Every detail page
 data.planets.forEach((p) =>

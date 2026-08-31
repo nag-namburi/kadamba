@@ -17,6 +17,7 @@ No build step, no dependencies:
 - Every detail page cross-links: sign → ruling planet, planet → ruled signs
   and karaka houses, house → karaka planets and classifications
 - Search across everything (press `/` to jump to the search box, `Esc` to clear)
+- Filter box on the Concepts page narrows the guides as you type
 - Concepts section: classifications, Chara Kārakas, purusharthas,
   interpretation guides
 - Responsive — works on phone and desktop

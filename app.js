@@ -129,8 +129,7 @@
 
   /* ---------- list views ---------- */
 
-  function renderHome() {
-    var analogy = concepts.find(function (c) { return c.id === "who-how-where"; });
+  function renderHome() {    var analogy = concepts.find(function (c) { return c.id === "who-how-where"; });
     return (
       '<section class="hero">' +
         "<h1>Kadamba</h1>" +
@@ -169,6 +168,42 @@
       '<p class="page-sub">' + esc(sub) + "</p>" +
       '<div class="grid">' + cards.join("") + "</div>"
     );
+  }
+
+  /* Searchable text for a concept (title, intro, category, all block content). */
+  function conceptHay(c) {
+    return (c.title + " " + (c.intro || "") + " " +
+      (CATEGORY_LABELS[c.category] || c.category) + " " +
+      JSON.stringify(c.blocks)).toLowerCase();
+  }
+
+  /* Concepts list with its own filter box (narrower than the global search). */
+  function renderConceptsList() {
+    return (
+      '<h1 class="page-title">Concepts</h1>' +
+      '<p class="page-sub">Classifications and frameworks that tie planets, signs and houses together.</p>' +
+      '<div class="filter-wrap">' +
+        '<input id="concept-filter" type="search" placeholder="Filter concepts…" ' +
+          'aria-label="Filter concepts" autocomplete="off">' +
+      "</div>" +
+      '<div class="grid" id="concept-grid">' + concepts.map(conceptCard).join("") + "</div>" +
+      '<p class="no-results" id="concept-filter-empty" hidden>' +
+        'No concepts match — try "yoga", "houses", or "jaimini".</p>'
+    );
+  }
+
+  /* Live-filter the concepts grid; the input is outside the grid so it keeps focus. */
+  function filterConcepts(q) {
+    var grid = document.getElementById("concept-grid");
+    if (!grid) return;
+    var empty = document.getElementById("concept-filter-empty");
+    var tokens = q.toLowerCase().split(/\s+/).filter(Boolean);
+    var matches = concepts.filter(function (c) {
+      var hay = conceptHay(c);
+      return tokens.every(function (t) { return hay.indexOf(t) !== -1; });
+    });
+    grid.innerHTML = matches.map(conceptCard).join("");
+    if (empty) empty.hidden = matches.length !== 0;
   }
 
   /* ---------- detail views ---------- */
@@ -387,7 +422,7 @@
       index.push({
         type: "Concepts", url: "#/concepts/" + c.id, title: c.title,
         subtitle: CATEGORY_LABELS[c.category] || c.category,
-        hay: (c.title + " " + (c.intro || "") + " " + JSON.stringify(c.blocks)).toLowerCase()
+        hay: conceptHay(c)
       });
     });
     return index;
@@ -453,8 +488,7 @@
       html = id ? renderHouse(id)
         : renderList("Houses (Bhāvas)", "The twelve houses — the fields of life where planetary energies play out.", houses.map(houseCard));
     } else if (section === "concepts") {
-      html = id ? renderConcept(id)
-        : renderList("Concepts", "Classifications and frameworks that tie planets, signs and houses together.", concepts.map(conceptCard));
+      html = id ? renderConcept(id) : renderConceptsList();
     } else {
       html = renderNotFound();
     }
@@ -485,6 +519,21 @@
       searchInput.value = "";
       render();
       searchInput.blur();
+    }
+  });
+
+  /* Concepts page filter (rendered dynamically, so use delegation). */
+  document.addEventListener("input", function (e) {
+    if (e.target && e.target.id === "concept-filter") {
+      filterConcepts(e.target.value);
+    }
+  });
+
+  document.addEventListener("keydown", function (e) {
+    if (e.key === "Escape" && document.activeElement && document.activeElement.id === "concept-filter") {
+      document.activeElement.value = "";
+      filterConcepts("");
+      document.activeElement.blur();
     }
   });
 
